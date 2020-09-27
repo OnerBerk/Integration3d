@@ -4,15 +4,21 @@ import Environment from './environment'
 import Material from './material'
 import Accesory from './accesory'
 import View from './view'
-import styles from './configuration.scss'
+import Button from '../elements/button'
+import './configuration.scss'
 
 function Configurator(){
+    function alert(){
+        return(
+            console.log("ca fonctionne")
+        )
+    }
     return<div className="configurator" >            
-            <button> <Color/> </button>
-            <button> <Environment/> </button>
-            <button> <Material/> </button>
-            <button> <Accesory/> </button>
-            <button> <View/> </button>
+            <Button onClick={alert}> <Color/> </Button>
+            <Button > <Environment/> </Button>
+            <Button > <Material/> </Button>
+            <Button > <Accesory/> </Button>
+            <Button > <View/> </Button>
     </div>
 }
 

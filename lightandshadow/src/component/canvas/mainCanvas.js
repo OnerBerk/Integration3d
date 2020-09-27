@@ -1,6 +1,5 @@
 import React, {useRef, useEffect } from 'react'
 import styles from './mainCanvas.scss'
-import Configurator from '../configuration/configurator'
 
 function MainCanvas(props){
     const canvas = useRef();
@@ -17,7 +16,7 @@ function MainCanvas(props){
     },[]);
 
     return <div>
-            <h3>joza</h3>
+            <h3>Light And Shadow</h3>
             <div className={styles.maincanv}>
                 <div className={styles.canv}>
                     <canvas ref={canvas}></canvas>
