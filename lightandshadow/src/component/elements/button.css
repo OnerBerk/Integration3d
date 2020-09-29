@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 10em;
-    height: 10em;
+    width: 8em;
+    height: 8em;
     background-color: cornsilk;
     border-radius: 15%;
+    outline: none;
+}
+.button:hover{
+    font-family: 'Bangers', cursive;
+    background-color: rgb(243, 233, 193);
+    color: rgba(165, 42, 42);
+}
+.button:active,.button:active,.button:focus{
+    font-family: 'Bangers', cursive;
+    background-color: rgb(243, 233, 193);
+    color: rgba(165, 42, 42);
+    
+}
+
+@media (max-width: 1080px){
+    .button{
+    margin-left: 8px;
+    }
 }

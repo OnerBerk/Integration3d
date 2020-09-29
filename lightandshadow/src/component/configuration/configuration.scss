@@ -1,9 +1,51 @@
 
 
-.configurator{
-    margin-top:15px;
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
     float: left;
-    width: 20%;
-    height:50em;
+    width: 10em;
+    height:48em;
+    padding-top: 35px;
+}
+@media (max-width: 1120px) {
+    .main{
+        flex-direction: row;
+        width: 34em;
+        height: 8em;
+        margin-bottom: 50px;
+        float: none;
+        margin: auto; 
+    }
+}
+.menuColor, .menuEnvironment,.menuMaterial, .menuAccesory, .menuView{
+    float: left;
+    width: 100px;
+    height: 48em;
+    margin-top: 70px;
+    margin-right: 5%;
+    background-color: rgb(227, 244, 245);
+    border: 2px solid black;
+    border-radius: 15px;
+}
 
+@media (max-width: 1120px) {
+    .menuColor, .menuEnvironment,.menuMaterial, .menuAccesory, .menuView{
+        float: none;
+        margin: auto;
+        margin-top: 30px;
+
+        width: 38em;
+        height: 8em;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menuColor, .menuEnvironment,.menuMaterial, .menuAccesory, .menuView{
+        width: 34em;
+        height: 7em;
+    }
+}
+.moduleColor{
+    font-size: larger;
 }

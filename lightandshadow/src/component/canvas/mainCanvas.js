@@ -11,8 +11,7 @@ function MainCanvas(props){
         canvasEle.width = canvasEle.clientWidth;
         canvasEle.height = canvasEle.clientHeight;
     //contexte du canvas
-    ctx = canvasEle.getContext("3d")
-
+    ctx = canvasEle.getContext("2d")
     },[]);
 
     return <div>

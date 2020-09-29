@@ -1,16 +1,13 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions'
-import Button  from '../component/elements/button';
+import Configurator from '../component/configuration/configurator'
 
 export default {
-  title: 'Button',
-  component: Button,
-};
+    title: 'Confifurateur',
+    component: Configurator,
+  };
 
-export const Text = ()=> <Button onclick={action('clicked')}>Hello button</Button>;
-
-
-const Template = (args) => <Button {...args} > Hello button </Button>;
+const Template = (args) => <Configurator {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
@@ -22,5 +19,4 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
 };
-
 
