@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Color(props){
+const Color = (props) => {
     return<div className="moduleColor"> 
            Color 
     </div>

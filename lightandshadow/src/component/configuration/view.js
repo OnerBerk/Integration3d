@@ -1,6 +1,6 @@
 import React from 'react'
 
-function View(){
+const View =(props)=>{
     return<div className="moduleview"> 
     View
     </div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css';
+import './app.scss';
 import MainCanvas from './component/canvas/mainCanvas'
 import Configurator from './component/configuration/configurator'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Configurator/>
       <MainCanvas/>
     </div>

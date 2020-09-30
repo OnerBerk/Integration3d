@@ -1,6 +1,5 @@
 import React from 'react'
 import MainCanvas from '../component/canvas/mainCanvas'
-import Configurator from '../component/configuration/configurator';
 
 export default {
     title:"canvas",

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');;
+
 
 .button{
     margin-left: auto;
@@ -14,7 +15,7 @@
 .button:hover{
     font-family: 'Bangers', cursive;
     background-color: rgb(243, 233, 193);
-    color: rgba(165, 42, 42);
+    color:rgba(165, 42, 42);
 }
 .button:active,.button:active,.button:focus{
     font-family: 'Bangers', cursive;

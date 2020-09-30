@@ -1,12 +1,11 @@
 import React from 'react'
 import './button.css'
 
-const Button = ({ children, ...rest}) => {
+const Button = ({ children, ...additionalStyles}) => {
     return(
-        <button className="button"{...rest}>
+        <button className="button"{...additionalStyles}>
         {children}
         </button>
     )
 }
-
 export default Button

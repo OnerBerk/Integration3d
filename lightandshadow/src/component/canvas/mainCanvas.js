@@ -1,7 +1,7 @@
 import React, {useRef, useEffect } from 'react'
 import styles from './mainCanvas.scss'
 
-function MainCanvas(props){
+const MainCanvas = (props) =>{
     const canvas = useRef();
     let ctx = null;
 
@@ -14,7 +14,8 @@ function MainCanvas(props){
     ctx = canvasEle.getContext("2d")
     },[]);
 
-    return <div>
+    return (
+        <div>
             <h3>Light And Shadow</h3>
             <div className={styles.maincanv}>
                 <div className={styles.canv}>
@@ -22,6 +23,6 @@ function MainCanvas(props){
                 </div>
             </div>
         </div> 
-        }
+        )}
 
 export default MainCanvas

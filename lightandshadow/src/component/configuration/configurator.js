@@ -5,25 +5,34 @@ import Environment from './environment'
 import Material from './material'
 import Accesory from './accesory'
 import View from './view'
-import Button from '../elements/button'
+import Button from '../componentUi/button/button'
 import './configuration.scss'
 
-function Configurator(){
+const Configurator=()=>{
+
         const [color, setColor] = useState(false)
         const [environment, setEnvironment] = useState(false)
         const [material, setMaterial] = useState(false)
         const [accesory, setAccesory] = useState(false)
         const [view, setView] = useState(false)
-        
 
-    return<div className="configurator" >  
+        const setAllFalse = () => {
+            setEnvironment(false);
+            setMaterial(false);
+            setAccesory(false);
+            setView(false);
+            setColor(false)
+        }
 
-            <div className="main" >         
-                <Button className="button" onClick={()=> {setColor(!color); setEnvironment(false) ; setMaterial(false); setAccesory(false); setView(false)}} > <i class="fas fa-paint-brush"></i> Color </Button>
-                <Button className="button" onClick={()=> {setEnvironment(!environment);setColor(false); setMaterial(false); setAccesory(false); setView(false) }  }> Environment </Button>
-                <Button className="button" onClick={()=> {setMaterial(!material); setColor(false); setEnvironment(false); setAccesory(false); setView(false) }  }> Material </Button>
-                <Button className="button" onClick={()=> {setAccesory(!accesory); setColor(false); setEnvironment(false); setMaterial(false); setView(false)} }> Accesory</Button>
-                <Button className="button" onClick={()=> {setView(!view); setColor(false); setEnvironment(false); setMaterial(false); setAccesory(false) } }> View </Button>
+    return(
+        <div className="configurator" >  
+
+            <div className="main" >
+                <Button onClick={()=> { setAllFalse(); setColor(!color) }}> Color </Button>         
+                <Button onClick={()=> { setAllFalse(); setEnvironment(!environment )}}> Environment </Button>
+                <Button onClick={()=> { setAllFalse(); setMaterial(!material )}}> Material </Button>
+                <Button onClick={()=> { setAllFalse(); setAccesory(!accesory)}}> Accesory</Button>
+                <Button onClick={()=> { setAllFalse(); setView(!view)}}> View </Button> 
             </div>
 
             { color && <div className="menuColor" >< Color/> </div> }
@@ -33,6 +42,6 @@ function Configurator(){
             { view && <div className="menuView" >< View/> </div> }
 
         </div>
-}
+    )}
 
 export default Configurator

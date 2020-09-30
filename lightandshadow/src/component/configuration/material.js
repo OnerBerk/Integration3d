@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Material(){
+const Material=()=>{
     return<div className="moduleMaterial"> 
     Material
     </div>
