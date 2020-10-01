@@ -1,4 +1,3 @@
-@use 'app';
 
 .main{
     display: flex;
@@ -28,6 +27,7 @@
     background-color: rgb(227, 244, 245);
     border: 2px solid black;
     border-radius: 15px;
+    
 }
 
 @media (max-width: 1120px) {
@@ -35,7 +35,6 @@
         float: none;
         margin: auto;
         margin-top: 30px;
-
         width: 38em;
         height: 8em;
     }
@@ -45,7 +44,4 @@
         width: 34em;
         height: 7em;
     }
-}
-.moduleColor{
-    font-size: larger;
 }

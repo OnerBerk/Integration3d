@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../resources/variables.scss'
 
 const Color = (props) => {
-    return<div className="moduleColor"> 
+    return<div> 
            Color 
     </div>
 }

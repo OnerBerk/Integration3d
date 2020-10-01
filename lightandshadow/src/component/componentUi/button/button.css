@@ -14,12 +14,10 @@
 }
 .button:hover{
     font-family: 'Bangers', cursive;
-    background-color: rgb(243, 233, 193);
     color:rgba(165, 42, 42);
 }
 .button:active,.button:active,.button:focus{
     font-family: 'Bangers', cursive;
-    background-color: rgb(243, 233, 193);
     color: rgba(165, 42, 42);
     
 }

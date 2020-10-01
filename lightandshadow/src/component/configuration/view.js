@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../resources/variables.scss'
 
 const View =(props)=>{
-    return<div className="moduleview"> 
+    return<div> 
     View
     </div>
 }

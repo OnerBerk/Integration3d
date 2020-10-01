@@ -7,8 +7,9 @@ import Accesory from './accesory'
 import View from './view'
 import Button from '../componentUi/button/button'
 import './configuration.scss'
+import '../../resources/variables.scss'
 
-const Configurator=()=>{
+const Configurator=(props)=>{
 
         const [color, setColor] = useState(false)
         const [environment, setEnvironment] = useState(false)
@@ -25,8 +26,7 @@ const Configurator=()=>{
         }
 
     return(
-        <div className="configurator" >  
-
+        <div>  
             <div className="main" >
                 <Button onClick={()=> { setAllFalse(); setColor(!color) }}> Color </Button>         
                 <Button onClick={()=> { setAllFalse(); setEnvironment(!environment )}}> Environment </Button>
@@ -40,7 +40,6 @@ const Configurator=()=>{
             { material && <div className="menuMaterial" >< Material/> </div> }
             { accesory && <div className="menuAccesory" >< Accesory/> </div> }
             { view && <div className="menuView" >< View/> </div> }
-
         </div>
     )}
 

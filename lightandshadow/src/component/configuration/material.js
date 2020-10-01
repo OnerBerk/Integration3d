@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../resources/variables.scss'
 
-const Material=()=>{
-    return<div className="moduleMaterial"> 
+const Material=(props)=>{
+    return<div> 
     Material
     </div>
 }

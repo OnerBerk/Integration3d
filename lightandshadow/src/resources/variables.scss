@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');;
+
+$primary-color:black;
+$textFont:'Cambria', 'Cochin','Bangers', cursive;
+
+
+body{
+    font-family: $textFont
+}
+button
+{
+    background-color: rgb(243, 233, 193);
+}

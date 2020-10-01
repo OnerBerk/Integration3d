@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../resources/variables.scss'
 
-function Environment(){
-    return<div className="moduleEnvironment"> 
+function Environment(props){
+    return<div> 
     Environment
     </div>
 }

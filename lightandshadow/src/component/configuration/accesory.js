@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../resources/variables.scss'
 
-function Accesory(){
-    return<div className="moduleAccesory"> 
+function Accesory(props){
+    return<div> 
     Accesory
     </div>
 }
