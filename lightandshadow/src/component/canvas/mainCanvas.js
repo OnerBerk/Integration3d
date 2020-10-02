@@ -16,7 +16,6 @@ const MainCanvas = (props) =>{
 
     return (
         <div>
-            <h3>Light And Shadow</h3>
             <div className={styles.maincanv}>
                 <div className={styles.canv}>
                     <canvas ref={canvas}></canvas>

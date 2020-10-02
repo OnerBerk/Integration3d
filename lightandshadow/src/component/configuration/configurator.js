@@ -40,6 +40,7 @@ const Configurator=(props)=>{
             { material && <div className="menuMaterial" >< Material/> </div> }
             { accesory && <div className="menuAccesory" >< Accesory/> </div> }
             { view && <div className="menuView" >< View/> </div> }
+
         </div>
     )}
 

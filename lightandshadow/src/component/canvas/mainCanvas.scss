@@ -2,8 +2,9 @@ canvas {
     width: 70%;
     height: 50em;
     background-color: #f1c2c2;
-    margin-bottom: 10px;
+
     margin-right: 10px;
+    margin-top: 70px;
 }
 @media (max-width: 1120px) {
     canvas {
@@ -19,4 +20,11 @@ canvas {
     h3{
         width: 30em;
     }
+}
+.canvas {
+    width: 70%;
+    height: 50em;
+    background-color: #f1c2c2;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
