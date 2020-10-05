@@ -5,7 +5,7 @@ import Configurator from './component/configuration/configurator'
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Configurator/>
       <MainCanvas/>
     </div>

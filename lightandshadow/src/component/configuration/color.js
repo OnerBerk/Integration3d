@@ -2,8 +2,9 @@ import React from 'react'
 import '../../resources/variables.scss'
 
 const Color = (props) => {
+
     return<div> 
-           Color 
+           Color
     </div>
 }
 export default Color
