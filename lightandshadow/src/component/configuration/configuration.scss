@@ -1,23 +1,26 @@
-$minimise-screen:1120px;
+$minimise-screen:1175px;
 $big-screen-phone:600px;
 
 .main{
-    display: flex;
-    flex-direction: column;
+  
     float: left;
+    margin-bottom: 1em;
+    margin-right: 5em;
 }
 
-.menuColor, .menuEnvironment,.menuMaterial, .menuAccesory, .menuView{
-    float: left;
-    width: 7em;
-    height: 34em;
-    margin-top: 1em;
-    margin-left: 1em;
-    margin-right: 0.5em;
-    background-color: rgb(247, 221, 165);
-    border: 2px solid black;
-    border-radius: 15px;
+.colorRed, .colorBlue, .colorGreen{ 
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    outline: none;
+    padding: 1em;
+    margin-top: 3em;
+    margin-left: -0.8em;
 }
+
+.colorRed{ background-color: rgb(218, 44, 44);}
+.colorBlue{background-color: rgb(130, 166, 243);}
+.colorGreen{background-color: rgb(130, 204, 115);}
 
 @media (max-width: $minimise-screen) {
     .main{
@@ -25,13 +28,13 @@ $big-screen-phone:600px;
         margin-top: 1em;
         width: 38em;
         height: 8em;
+        margin-right: -4em;
     }
-    .menuColor, .menuEnvironment,.menuMaterial, .menuAccesory, .menuView{  
-        margin-top: 1em;
-        margin-bottom: 1em;
-        width: 38em;
-        height: 8em;
+    .colorRed, .colorBlue, .colorGreen{ 
+  
+        margin-top: 4em;
     }
+
 }
 @media only screen and (max-width: $big-screen-phone) {
     .main{

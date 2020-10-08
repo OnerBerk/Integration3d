@@ -6,41 +6,41 @@ import Material from './material'
 import Accesory from './accesory'
 import View from './view'
 import Button from '../componentUi/button/button'
+
 import './configuration.scss'
 import '../../resources/variables.scss'
 
 const Configurator=(props)=>{
 
-        const [color, setColor] = useState(false)
-        const [environment, setEnvironment] = useState(false)
-        const [material, setMaterial] = useState(false)
-        const [accesory, setAccesory] = useState(false)
-        const [view, setView] = useState(false)
+        const [colorbtn, setColorBtn] = useState(false)
+        const [environmentbtn, setEnvironmentBtn] = useState(false)
+        const [materialbtn, setMaterialBtn] = useState(false)
+        const [accesorybtn, setAccesoryBtn] = useState(false)
+        const [viewbtn, setViewBtn] = useState(false)
 
         const setAllFalse = () => {
-            setEnvironment(false);
-            setMaterial(false);
-            setAccesory(false);
-            setView(false);
-            setColor(false)
+            setEnvironmentBtn(false);
+            setMaterialBtn(false);
+            setAccesoryBtn(false);
+            setViewBtn(false);
+            setColorBtn(false)
         }
 
     return(
         <div>  
             <div className="main" >
-                <Button onClick={()=> { setAllFalse(); setColor(!color) }}> Color </Button>         
-                <Button onClick={()=> { setAllFalse(); setEnvironment(!environment )}}> Environment </Button>
-                <Button onClick={()=> { setAllFalse(); setMaterial(!material )}}> Material </Button>
-                <Button onClick={()=> { setAllFalse(); setAccesory(!accesory)}}> Accesory</Button>
-                <Button onClick={()=> { setAllFalse(); setView(!view)}}> View </Button> 
+                <Button onClick={()=> { setAllFalse(); setColorBtn(!colorbtn) }}> Color </Button>         
+                <Button onClick={()=> { setAllFalse(); setEnvironmentBtn(!environmentbtn )}}> Environment </Button>
+                <Button onClick={()=> { setAllFalse(); setMaterialBtn(!materialbtn )}}> Material </Button>
+                <Button onClick={()=> { setAllFalse(); setAccesoryBtn(!accesorybtn)}}> Accesory</Button>
+                <Button onClick={()=> { setAllFalse(); setViewBtn(!viewbtn)}}> View </Button> 
             </div>
 
-            { color && <div className="menuColor" >< Color/> </div> }
-            { environment && <div className="menuEnvironment" >< Environment/> </div> }
-            { material && <div className="menuMaterial" >< Material/> </div> }
-            { accesory && <div className="menuAccesory" >< Accesory/> </div> }
-            { view && <div className="menuView" >< View/> </div> }
-
+            { colorbtn && <div className="menuColor" >< Color/> </div> }
+            { environmentbtn && <div className="menuEnvironment" >< Environment/> </div> }
+            { materialbtn && <div className="menuMaterial" >< Material/> </div> }
+            { accesorybtn && <div className="menuAccesory" >< Accesory/> </div> }
+            { viewbtn && <div className="menuView" >< View/> </div> }
         </div>
     )}
 

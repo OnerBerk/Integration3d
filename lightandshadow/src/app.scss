@@ -1,11 +1,18 @@
 $big-screen-phone:600px;
+$minimise-screen:1175px;
 
-div {
-  text-align: center;
-}
 .app{
+  
   margin: auto;
-  padding:4em;
+  padding:2em;
   width: 95%;
-  height: 35em;
+  height: 40em;
+  background-color: blanchedalmond;
+}
+
+@media (max-width: $minimise-screen) {
+  .app{
+    display: flex;
+  flex-direction: column;
+  }
 }

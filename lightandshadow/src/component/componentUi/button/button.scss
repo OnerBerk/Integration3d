@@ -3,16 +3,16 @@
 
 $primary-btnColor:#a52a2a;
 $big-screen-phone:600px;
-$minimise-screen:1120px;
+$minimise-screen:1175px;
 
 .button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     width: 7em;
-    height: 6em;
+    height: 7em;
     background-color: cornsilk;
-    border-radius: 15%;
+    border-radius: 50%;
     outline: none;
 }
 .button:hover{
@@ -23,14 +23,9 @@ $minimise-screen:1120px;
 .button:active,.button:active,.button:focus{
     font-family: 'Bangers', cursive;
     color: $primary-btnColor
-    
 }
 
-@media (max-width: $minimise-screen){
-    .button{
-    margin-left: 5px;
-    }
-}
+
 @media (max-width: $big-screen-phone){
     .button{
         width: 4.5em;
