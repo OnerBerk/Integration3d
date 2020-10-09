@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Button from '../componentUi/button/button'
 
 import '../../resources/variables.scss'
 
 
 const Environment = (props) => {
-    const [color,setColor] = useState('black')
+    const [environment, setenvironment] =useState('')
 
     const mountain = () => {
         return(
@@ -15,21 +15,21 @@ const Environment = (props) => {
         return(
             console.log('road')
         )}
-    const city = () => {
+    const heli = () => {
         return(
-            console.log('city')
+            console.log('heli')
         )}
-    const garage = () => {
+    const bridge = () => {
             return(
-                console.log('garage')
+                console.log('bridge')
             )}
 
     return(
         <div className="environment">
-            <Button onClick={()=> {mountain()}}> Mountain  </Button> 
-            <Button onClick={()=> {road()}}> Road </Button>
-            <Button onClick={()=> {city()}}> City </Button> 
-            <Button onClick={()=> {garage()}}> Garage </Button>     
+            <Button className="mountain" onClick={()=> {mountain()}}> Mountain  </Button> 
+            <Button className="road" onClick={()=> {road()}}> Road </Button>
+            <Button className="heli" onClick={()=> {heli(); setenvironment('heli')}}> Heli </Button> 
+            <Button className="bridge" onClick={()=> {bridge(); setenvironment('Bridge')}}> Bridge </Button>     
         </div>
     )
 }

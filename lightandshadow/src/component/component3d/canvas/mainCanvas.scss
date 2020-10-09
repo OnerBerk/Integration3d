@@ -4,17 +4,14 @@ $big-screen-phone:600px;
 
 #mainCanv {
     display: flex;
-    width: 80%;
     height: 38em;
     margin-top:2% ;
     margin-bottom:4% ;
-    margin-left: 1.5em;
+    border-radius: 25px;
 }
 
 @media (max-width: $minimise-screen) {
     .mainCanv {
-        width: 90%;
-        height: 38em;
         margin: auto;
     }
 }

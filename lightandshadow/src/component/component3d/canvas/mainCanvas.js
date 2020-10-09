@@ -3,22 +3,20 @@ import './mainCanvas.scss'
 
 const Canvas =(props)=> {
     const canvasref = useRef(null)
-
-    const draw = context =>{
-        
-    }
-
+    
     useEffect(()=>{
     const canvas = canvasref.current
     const context = canvas.getContext("webgl");
 
-    context.clearColor(0.0,0.0,0.0,1.0)
+    if (!context) {
+        alert("Impossible d'initialiser WebGL. Votre navigateur ou votre machine peut ne pas le supporter.");
+        return;
+      }
+
+    context.clearColor(0.6, 0.7, 0.8, 1)
     context.clear(context.COLOR_BUFFER_BIT|context.DEPTH_BUFFER_BIT)
-
-        draw(context)
-},[draw])
-
-
+        
+},[])
     return(
     <canvas id="mainCanv" ref={canvasref} {...props} />)
 }
