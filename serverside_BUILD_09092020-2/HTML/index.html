@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>OnDemandFrontDemo</title>
+    <script src="playcanvas-stable.min.js"></script>
+    <script src="__settings__.js"></script>
+	<script>
+            window.onload = function(){
+                var myapp = document.getElementById('application-canvas');
+				document.getElementById('container3D').appendChild(myapp);
+            }
+     </script>
+	
+</head>
+<body>
+    <script src="__start__.js"></script>
+    <script src="__loading__.js"></script>
+	<script>
+        var app = pc.Application.getApplication();
+        
+        app.on("start", function () {});
+        
+        function setColor(newColor) 
+        {
+			app.fire("color:set", newColor);
+        };
+
+        function setEnv(newEnv) 
+        {
+			app.fire("env:set", newEnv);
+        };
+        
+        function setCamera(newCameraIndex) 
+        {
+			app.fire("camera:set", newCameraIndex);
+		};
+		
+		function setIntExt(intOrExt) 
+        {
+			app.fire("intext:set", intOrExt);
+		};
+    </script>
+	<div id="containerGlobal">
+		<div id="container3D" ></div>
+		<div id="containerUI" >
+            <button class="lsButton" onclick="setColor('green')">Green</button>
+            <button class="lsButton" onclick="setColor('red')">Red</button>
+            <button class="lsButton" onclick="setColor('black')">Black</button>
+            <button class="lsButton" onclick="setEnv('heli')">Heli</button>
+            <button class="lsButton" onclick="setEnv('bridge')">Bridge</button>
+            <button class="lsButton" onclick="setCamera(1)">POV 1</button>
+            <button class="lsButton" onclick="setCamera(2)">POV 2</button>
+            <button class="lsButton" onclick="setCamera(3)">POV 3</button>
+			<button class="lsButton" onclick="setIntExt('int')">INT</button>
+			<button class="lsButton" onclick="setIntExt('ext')">EXT</button>
+		</div>
+	</div>
+</body>
+</html>
