@@ -7,9 +7,6 @@
         canvas = document.createElement('canvas');
         canvas.setAttribute('id', CANVAS_ID);
         canvas.setAttribute('tabindex', 0);
-        // canvas.style.visibility = 'hidden';
-
-        // Disable I-bar cursor on click+drag
         canvas.onselectstart = function () { return false; };
         document.body.appendChild(canvas);
         return canvas;

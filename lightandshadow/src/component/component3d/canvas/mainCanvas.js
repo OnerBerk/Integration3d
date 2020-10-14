@@ -1,6 +1,5 @@
 import React, {useRef, useEffect} from 'react'
 import './mainCanvas.scss'
-import Color from '../../configuration/color'
 
 const Canvas =(props)=> {
 
@@ -13,15 +12,15 @@ const Canvas =(props)=> {
             alert("Impossible d'initialiser WebGL. Votre navigateur ou votre machine peut ne pas le supporter.");
             return;
         }
-        
+       
         context.clearColor(0.6, 0.7, 0.8, 1)
-        context.clear(context.COLOR_BUFFER_BIT|context.DEPTH_BUFFER_BIT)
+         context.clear(context.COLOR_BUFFER_BIT|context.DEPTH_BUFFER_BIT)
         
     },[])
     return(
         <div>
-    <canvas id="mainCanv" ref={canvasref} {...props} />
-    </div>
+            <canvas id="mainCanv" ref={canvasref} {...props} />
+        </div>
     )
 }
 
