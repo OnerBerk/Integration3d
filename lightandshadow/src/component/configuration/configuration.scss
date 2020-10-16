@@ -1,13 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
 $minimise-screen:1175px;
 $big-screen-phone:600px;
+$textFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
 
 .main{
-    margin-top: -3em;
-    float: left;
-    margin-bottom: 1em;
-    margin-right: 4em;
+    display: flex;
+    flex-direction: row;
+    font-family: $textFont;
 }
-
+.main,p{
+    color: floralwhite;
+    font-size:1.5em;
+    margin-right:0.3em ;
+}
+p:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.colorRed:hover{
+    color: rgb(212, 10, 10);
+}
+.colorGreen:hover{
+    color: rgb(76, 209, 116);
+}
+.color{
+    display: flex;
+    flex-direction:row ;
+    margin-top: -3em;
+    margin-right:0.5em ;
+    margin-bottom: -7em;
+}
 .colorRed, .colorBlack, .colorGreen{ 
     width: 5em;
     height: 5em;
@@ -16,11 +39,6 @@ $big-screen-phone:600px;
     padding: 1em;
     margin-left: -0.8em;
 }
-
-.colorRed{ background-color: rgb(218, 44, 44);}
-.colorBlack{background-color: rgb(5, 5, 5); color: honeydew;}
-.colorGreen{background-color: rgb(130, 204, 115);}
-
 .mountain, .road, .heli, .bridge{ 
     width: 5em;
     height: 5em;
@@ -32,18 +50,12 @@ $big-screen-phone:600px;
 }
 
 @media (max-width: $minimise-screen) {
-    .main{
-        flex-direction: row;
-        margin-top: 1em;
-        width: 38em;
-        height: 8em;
-        margin-right: -6em;
-    }
-    .colorRed, .colorBlue, .colorGreen{ 
-        margin-top: 4em;
-    }
+
     .mountain, .road, .heli, .bridge{ 
         margin-top: 4em;
+    }
+    .main,p{
+        font-size:1.3em;
     }
 
 }

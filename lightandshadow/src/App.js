@@ -1,14 +1,14 @@
 import React from 'react'
 import './app.scss';
-import Canvas from './component/component3d/canvas/mainCanvas'
 import Configurator from './component/configuration/configurator'
+import Canvas from './component/component3d/canvas/canvas';
 
 
 const App = () => {
   return (
     <div className="app">
       <Configurator/>
-      <Canvas />
+      <Canvas/>
     </div>
   );
 }

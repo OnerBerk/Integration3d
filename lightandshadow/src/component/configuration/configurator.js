@@ -5,7 +5,6 @@ import Environment from './environment'
 import Material from './material'
 import Accesory from './accesory'
 import View from './view'
-import Button from '../componentUi/button/button'
 
 import './configuration.scss'
 import '../../resources/variables.scss'
@@ -29,11 +28,11 @@ const Configurator=(props)=>{
     return(
         <div>  
             <div className="main" >
-                <Button onClick={()=> { setAllFalse(); setColorBtn(!colorbtn) }}> Color </Button>         
-                <Button onClick={()=> { setAllFalse(); setEnvironmentBtn(!environmentbtn )}}> Environment </Button>
-                <Button onClick={()=> { setAllFalse(); setMaterialBtn(!materialbtn )}}> Material </Button>
-                <Button onClick={()=> { setAllFalse(); setAccesoryBtn(!accesorybtn)}}> Accesory</Button>
-                <Button onClick={()=> { setAllFalse(); setViewBtn(!viewbtn)}}> View </Button> 
+                <p onClick={()=> { setAllFalse(); setColorBtn(!colorbtn) }}> Color </p><br/>     
+                <p onClick={()=> { setAllFalse(); setEnvironmentBtn(!environmentbtn )}}> Environment </p>
+                <p onClick={()=> { setAllFalse(); setMaterialBtn(!materialbtn )}}> Material </p>
+                <p onClick={()=> { setAllFalse(); setAccesoryBtn(!accesorybtn)}}> Accesory</p>
+                <p onClick={()=> { setAllFalse(); setViewBtn(!viewbtn)}}> View </p> 
             </div>
 
             { colorbtn && <div className="menuColor" >< Color/> </div> }

@@ -1,18 +1,12 @@
 $big-screen-phone:600px;
 $minimise-screen:1175px;
 
-.app{
-  
-  margin: auto;
+.app{ 
   padding:2em;
-  width: 95%;
-  height: 40em;
-  background-color: blanchedalmond;
+}
+.component3D{
+  width: 90%;
+  height: 30em;
 }
 
-@media (max-width: $minimise-screen) {
-  .app{
-    display: flex;
-  flex-direction: column;
-  }
-}
+

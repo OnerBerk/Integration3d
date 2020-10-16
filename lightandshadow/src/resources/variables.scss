@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
-$primary-color:rgb(243, 233, 193);
-$textFont:'Cambria', 'Cochin','Bangers', cursive;
+$primary-color:#212126;
+$textFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
 $primary-btnColor:#a52a2a;
 
 
 body{
-    font-family: $textFont
+    font-family: $textFont;
+    background-color: $primary-color;
 }
 button
 {
