@@ -1,68 +1,70 @@
-import React, { useRef, useEffect } from 'react'
-import * as THREE from 'three'
-import './styles.scss'
 
-const Canvas = props => {
+import React, { useRef, useEffect, useState, useCallback } from 'react'
+import './canvas.scss'
+
+const CanvasProject = props => {
   
-  const canvasRef = useRef(null)
-  
-  const draw = (ctx, frameCount) => {
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
-    ctx.fillStyle = '#000000'
-    ctx.beginPath()
-    ctx.arc(50, 100, 20*Math.sin(frameCount*0.05)**2, 0, 2*Math.PI)
+  const canvasRef = useRef(null) //creer un objet avec une proprieté mutable qui est ".current"  
+  const [circleColor, setCircleColor] = useState("red") 
+  const [ x, setX ] = useState(20)
+  // draw etant une depence du useeffect il se rexecute 
+  // a chaque cycle du composant , usecallback evite la boucle infinie
+  const draw = useCallback((ctx) => { 
+    ctx.y = 85;
+    ctx.radius =15
+    ctx.lineWidth = 1; //largeur de la ligne 
+    
+    ctx.beginPath(); // debute le dessin
+    ctx.strokeStyle = 'blue'; //definie une couleur  autour des formes
+    ctx.moveTo(20, 20); // position initial du stylo
+    ctx.lineTo(150, 20); //connecte le dernier point specifier a x , y 
+    ctx.stroke(); //rendu du dessin 
+    
+    ctx.beginPath();
+    ctx.arc(x, ctx.y, ctx.radius, 0, 2 * Math.PI);
+    ctx.strokeStyle = "black"
+    ctx.fillStyle = circleColor
     ctx.fill()
-  }
+    ctx.stroke();
   
+},[circleColor, x])
+
+
   useEffect(() => {
+    const canvas = canvasRef.current;
+    const context = canvas.getContext('2d');
+    //sconst offset = canvas.getBoundingClientRect();
+    context.fillStyle = "rgb(215,227,234)";  // définit la couleur de remplissage du rectangle 
+    context.fillRect(0, 0, window.innerWidth, window.innerHeight); 
+    //dessine le rectangle autour du canvas position 10,10 hauteur largeur
     
-    const canvas = canvasRef.current
-    const context = canvas.getContext('2d')
-    let frameCount = 0
-    let animationFrameId
-    
-    //Our draw came here
-    const render = () => {
-      frameCount++
-      draw(context, frameCount)
-      animationFrameId = window.requestAnimationFrame(render)
-    }
-    render()
-    
-    return () => {
-      window.cancelAnimationFrame(animationFrameId)
-    }
+    draw( context)
+    // window.addEventListener('mousedown', function(event) {
+    //   draw(event.clientX - offset.x, event.clientY - offset.y, 50);
+    // });
   }, [draw])
+    
+    const blue =()=>{
+      setCircleColor('blue')
+    }
+    const green =()=>{
+      setCircleColor('green')
+    }
+    const red =()=>{
+      setCircleColor('red')
+    }
+    const right =()=>{
+      setX( x + 10 )
+    }    
+    return (
+      <div>
+      <canvas  ref={canvasRef} {...props}  onClick={()=>right()}/><br/>
+      <button onClick={()=>blue()}> Blue</button>
+      <button onClick={()=>green()}> Green</button>
+      <button onClick={()=>red()}> Red</button><br/>
+  </div>
+  )
   
-  return <canvas className='canvas' ref={canvasRef} {...props}/>
 }
 
-// const Canvas=()=>{
-//         useEffect=(()=>{
-//             let scene = new THREE.Scene();
-//             let camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-//             let renderer = new THREE.WebGLRenderer();
-//             renderer.setSize( window.innerWidth, window.innerHeight );
-//             document.body.appendChild( renderer.domElement );
-//             let geometry = new THREE.BoxGeometry( 1, 1, 1 );
-//             let material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-//             let cube = new THREE.Mesh( geometry, material );
-//             scene.add( cube );
-//             camera.position.z = 5;
-//             let animate = function () {
-//             requestAnimationFrame( animate );
-//             cube.rotation.x += 0.01;
-//             cube.rotation.y += 0.01;
-//             renderer.render( scene, camera );
-//             };
-//             animate();
-//         },[])
-//         return(
-//             <div></div>
-//         )
-// }
-
-export default Canvas
-
-
-
+export default CanvasProject

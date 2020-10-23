@@ -12,7 +12,7 @@ const Color = (props) => {
     
 
     const red = () => {
-        axios.get("https://car-config.test.it.unity3d.com//cam?hval=-294.7394945581704&vval=50.76674498214743&fu=true&external_color=7&internal_color=1&view_point=0&rims=0&zoom=4.02&zoom_type=1&animations=-1&animation_status=null")
+        axios.get("ws://127.0.0.1:4649/WSS")
         .then(resp => { 
             setColor(resp.data)  ;
             console.log(color.image)
