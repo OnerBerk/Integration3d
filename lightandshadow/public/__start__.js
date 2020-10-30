@@ -41,7 +41,7 @@
         css += "    #application-canvas.fill-mode-KEEP_ASPECT {";
         css += "        width: auto;";
         css += "        height: 100%;";
-        css += "        margin: 0 auto;";
+        css += "        margin: 0;";
         css += "    }";
         css += "}";
 
@@ -53,14 +53,15 @@
 
     var reflow = function () {
         app.resizeCanvas(canvas.width, canvas.height);
-        canvas.style.width = '';
+        canvas.style.width = '90%';
         canvas.style.height = '';
 
         var fillMode = app._fillMode;
 
         if (fillMode == pc.FILLMODE_NONE || fillMode == pc.FILLMODE_KEEP_ASPECT) {
             if ((fillMode == pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
-                canvas.style.marginTop = Math.floor((window.innerHeight - canvas.clientHeight) / 2) + 'px';
+                canvas.style.marginTop = '0';
+                canvas.style.marginLeft = '1em';
             } else {
                 canvas.style.marginTop = '';
             }
