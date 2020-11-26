@@ -1,4 +1,4 @@
-var loadModules = function (modules, urlPrefix, doneCallback) {
+const LoadModules = (modules, urlPrefix, doneCallback)=> {
 
     // check for wasm module support
     function wasmSupported() {
@@ -67,3 +67,5 @@ var loadModules = function (modules, urlPrefix, doneCallback) {
         });
     }
 };
+
+export default LoadModules

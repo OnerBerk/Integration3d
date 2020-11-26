@@ -26,7 +26,6 @@
             gamepads: INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
             touch: INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
         };
-
         return devices;
     };
 
@@ -35,8 +34,6 @@
         if (canvas.classList) {
             canvas.classList.add('fill-mode-' + fillMode);
         }
-
-        // css media query for aspect ratio changes
         var css  = "@media screen and (min-aspect-ratio: " + width + "/" + height + ") {";
         css += "    #application-canvas.fill-mode-KEEP_ASPECT {";
         css += "        width: auto;";
@@ -44,7 +41,6 @@
         css += "        margin: 0;";
         css += "    }";
         css += "}";
-
         // append css to style
         if (document.head.querySelector) {
             document.head.querySelector('style').innerHTML += css;
@@ -121,20 +117,14 @@
             }
 
             configureCss(app._fillMode, app._width, app._height);
-
-            // do the first reflow after a timeout because of
-            // iOS showing a squished iframe sometimes
             setTimeout(function () {
                 reflow();
-
                 window.addEventListener('resize', reflow, false);
                 window.addEventListener('orientationchange', reflow, false);
-
                 app.preload(function (err) {
                     if (err) {
                         console.error(err);
                     }
-
                     app.loadScene(SCENE_PATH, function (err, scene) {
                         if (err) {
                             console.error(err);
