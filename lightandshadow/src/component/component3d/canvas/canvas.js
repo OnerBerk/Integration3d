@@ -1,12 +1,9 @@
 import React, {useEffect} from 'react'
 import './canvas.scss'
-import LoadModules from "../unity/__modules__.js"
-import * as pc from 'playcanvas'
-import * as scene from '../unity/953348.json';
-import * as configUrl from '../unity/config.json';
+import LoadModules from "./__modules__.js"
+import * as pc from 'playcanvas' 
 
 const CanvasProject = props => {
-    let sceneUrl = JSON.stringify(scene)
 
     useEffect(() => {
         let devices, app
@@ -40,8 +37,8 @@ const CanvasProject = props => {
         pc.script.legacy = false;
 
         var createCanvas = function () {
-            canvas.onselectstart = function () {
-                return false;
+             canvas.onselectstart = async function () {
+                 return  false;
             };
             return canvas;
         };
@@ -58,7 +55,7 @@ const CanvasProject = props => {
                 gamepads: INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
                 touch: INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
             };
-            return devices;
+             return  devices;
         };
 
         let configureCss = function (fillMode, width, height) {
@@ -146,9 +143,8 @@ const CanvasProject = props => {
 
 
         let configure = function () {
-            console.log("URL=", configUrl);
 
-            app.configure("/poubelle/config.json", function (err) {
+            app.configure("/modele/config.json", function (err) {
                 if (err) {
                     console.error(err)
                 }
@@ -161,7 +157,7 @@ const CanvasProject = props => {
                         if (err) {
                             console.error(err)
                         }
-                        app.loadScene("/poubelle/953348.json", function (err) {
+                        app.loadScene("/modele/953348.json", function (err) {
                             if (err) {
                                 console.error(err)
                             }
