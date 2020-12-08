@@ -6,6 +6,7 @@ import CanvasProject from './component/component3d/canvas';
 
 
 const App = () => {
+
   return (
     <div className="app">
       <Configurator/>
