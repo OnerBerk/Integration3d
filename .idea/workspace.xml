@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/playcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l0U0j19GRzrfzL8xlO235GPzl3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="" />
+      <created>1606733280418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606733280418</updated>
+      <workItem from="1606733281456" duration="7134000" />
+      <workItem from="1606777157701" duration="1101000" />
+      <workItem from="1606813057116" duration="3531000" />
+      <workItem from="1606830022872" duration="137000" />
+      <workItem from="1606831154214" duration="146000" />
+      <workItem from="1606898681100" duration="714000" />
+      <workItem from="1606900229931" duration="23000" />
+      <workItem from="1607006236972" duration="1345000" />
+      <workItem from="1607009185239" duration="4460000" />
+      <workItem from="1607072110480" duration="1425000" />
+      <workItem from="1607083241802" duration="122000" />
+      <workItem from="1607177375318" duration="6000" />
+      <workItem from="1607330137220" duration="1650000" />
+      <workItem from="1607348945540" duration="3462000" />
+      <workItem from="1607359291484" duration="80000" />
+      <workItem from="1607418558298" duration="7589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1060" height="169" key="GridCell.Tab.0.bottom" timestamp="1606830159516">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1060" height="169" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1606830159516" />
+    <state width="1060" height="169" key="GridCell.Tab.0.center" timestamp="1606830159515">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1060" height="169" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1606830159515" />
+    <state width="1060" height="169" key="GridCell.Tab.0.left" timestamp="1606830159515">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1060" height="169" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1606830159515" />
+    <state width="1060" height="169" key="GridCell.Tab.0.right" timestamp="1606830159515">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1060" height="169" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1606830159515" />
+    <state x="580" y="171" key="SettingsEditor" timestamp="1607355310254">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="580" y="171" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1607355310254" />
+    <state x="243" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1607431535231">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="243" y="266" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1607431535231" />
+  </component>
+</project>
