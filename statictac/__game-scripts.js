@@ -1,4 +1,7 @@
+console.log("dans le gamescript de l'application statique")
 var TouchInput = pc.createScript("touchInput");
+
+console.log("GS_statique - TouchInput=", TouchInput);
 
 TouchInput.attributes.add("orbitSensitivity", {
     type: "number",
@@ -1123,9 +1126,6 @@ class LSContext {
         this.fov = fov;
 
         this.script.app.fire("ondemand:askForNewImage");
-        console.log(pitch)
-        console.log(yaw)
-        console.log(distance)
     }
 
     UpdateColor(color) {

@@ -1,0 +1,69 @@
+html {display: flex; flex-direction: column;} /* IE fix */
+
+body {
+	display: flex; /* crée un contexte flex pour ses enfants */
+	flex-direction: column; /* affichage vertical */
+	min-height: 100vh; /* toute la hauteur du viewport (compatible IE9+) */
+	margin: 0;
+	padding: 0;
+}
+
+#application-canvas{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+canvas:focus {
+    outline: none;
+}
+
+#containerGlobal {
+	flex: 1 1 auto; /* occupe la hauteur restante */
+	display: flex; /* crée un contexte flex pour ses enfants */
+	flex-direction: column;
+}
+
+#container3D {
+	flex: 5;
+}
+
+#containerUI {
+	flex: 1;
+	background: white;
+	text-align: center;
+}
+
+#container3D, #containerUI{
+	padding: 10px;
+	margin: 0;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.lsButton {
+	background-color:transparent;
+	-webkit-border-radius:28px;
+	-moz-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#452545;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.lsButton:hover {
+	background-color:transparent;
+}
+.lsButton:active {
+	position:relative;
+	top:1px;
+}
+
+.lsButton:focus {
+	border:1px solid #b40e0e;
+	outline: none;
+}
