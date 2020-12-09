@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Button from '../componentUi/button/button'
 
-import '../../resources/variables.scss'
-
 
 const Environment = (props) => {
     const [environment, setenvironment] =useState('')

@@ -1,7 +1,6 @@
 console.log("dans le gamescript de l'application statique")
+console.log("CONF", pc.Application.getApplication())
 var TouchInput = pc.createScript("touchInput");
-
-console.log("GS_statique - TouchInput=", TouchInput);
 
 TouchInput.attributes.add("orbitSensitivity", {
     type: "number",

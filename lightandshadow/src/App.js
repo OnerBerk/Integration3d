@@ -1,15 +1,11 @@
 import React from 'react'
-import './app.scss';
-import Configurator from './component/configuration/configurator'
 import CanvasProject from './component/component3d/canvas';
-
-
+import styles from "./styles/global.scss"
 
 const App = () => {
 
   return (
-    <div className="app">
-      <Configurator/>
+    <div className={styles.app}>
       <CanvasProject/>
     </div>
   );

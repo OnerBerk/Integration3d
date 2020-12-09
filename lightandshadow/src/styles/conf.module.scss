@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+$minimise-screen:1175px;
+$big-screen-phone:600px;
+$mainFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
+
+.main{
+    font-family: $mainFont;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+}
+.main,p{
+    color: floralwhite;
+    font-size:1.35em;
+    margin-right:0.3em ;
+}
+main,p:hover{
+    color: rgb(55, 91, 133);
+    font-weight: bolder;
+}
+.colorRed:hover{
+    color: rgb(212, 10, 10);
+}
+.colorGreen:hover{
+    color: rgb(76, 209, 116);
+}
+.color{
+    display: flex;
+    flex-direction:row ;
+    margin-top: -3em;
+    margin-right:0.5em ;
+    margin-bottom: -7em;
+}
+.colorRed, .colorBlack, .colorGreen{ 
+    width: 7em;
+    height: 5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-family: $mainFont;
+}
+.mountain, .road, .heli, .bridge{ 
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    outline: none;
+    padding: 1em;
+    margin-left: -0.8em;
+    background-color: rgb(250, 176, 127);
+}
+
+

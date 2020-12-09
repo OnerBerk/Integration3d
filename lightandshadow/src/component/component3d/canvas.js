@@ -1,53 +1,63 @@
-import React, {useEffect, useRef} from 'react'
-import './canvas.scss'
+import React, {useEffect, useRef, useState} from 'react'
 import LoadModules from "./__modules__.js"
-let pc = window.pc
+import Conf from "../configuration/conf"
 
+import styles from "../../styles/canvas.module.scss"
 
-const CanvasProject = props => {
+const CanvasProject = ( props )=> {
+    useEffect( () => { model() },[] );
+
+    const pc = window.pc
     const canvasRef = useRef(null)
-    useEffect(() => {
-        let devices, app, canvas
+    let [app, setApp ]=useState()
+    
+    const model =() => {
+        let devices, canvas
         canvas = canvasRef.current
 
-        const SCRIPT_PREFIX = "";
-        const PRELOAD_MODULES = [];
-        const ASSET_PREFIX = "";
-        const SCRIPTS = [32822138, 32822122,32822124, 32822128,32830139, 32830160,32884471, 32949301,32952826, 33276013,33276709, 33298316,33308095, 33312032,33315680, 33316106,33365213, 33365561,33555901];
-        const INPUT_SETTINGS = {
-                useKeyboard: true,
-                useMouse: true,
-                useGamepads: false,
-                useTouch: true
-            };
-        const CONTEXT_OPTIONS = {
-                'antialias': true,
-                'alpha': false,
-                'preserveDrawingBuffer': false,
-                'preferWebGl2': true
-            };
-            pc.script.legacy = false;
-
-            const createInputDevices =  (canvas) => {
-
-                //let mouse = new pc.Keyboard(window);
-
-                let result =  {
-                    elementInput:  new pc.ElementInput(canvas, {
-                       useMouse: INPUT_SETTINGS.useMouse,
-                        useTouch: INPUT_SETTINGS.useTouch
-                    }),
-                    keyboard: INPUT_SETTINGS.useKeyboard = new pc.Keyboard(window),
-                    mouse: INPUT_SETTINGS.useMouse = new pc.Mouse(canvas),
-                    gamepads: INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
-                    touch: INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
+          const SCRIPT_PREFIX = "";
+          const PRELOAD_MODULES = [];
+          const ASSET_PREFIX = "";
+          const SCRIPTS = [
+              32822138, 32822122,32822124,
+              32822128,32830139, 32830160,
+              32884471, 32949301,32952826, 
+              33276013,33276709, 33298316,
+              33308095, 33312032,33315680, 
+              33316106,33365213, 33365561,
+              33555901];
+          const INPUT_SETTINGS = {
+                  useKeyboard: true,
+                  useMouse: true,
+                  useGamepads: false,
+                  useTouch: true
                 };
-                return result;
-            };
-            devices = createInputDevices(canvas)
-            const displayError =(html)=>{
-                return(
-                <table>
+          const CONTEXT_OPTIONS = {
+                    'antialias': true,
+                    'alpha': false,
+                    'preserveDrawingBuffer': false,
+                    'preferWebGl2': true
+                };
+          pc.script.legacy = false;
+                
+          const createInputDevices =  (canvas) => {
+                    
+                    let result =  {
+                        elementInput:  new pc.ElementInput(canvas, {
+                            useMouse: INPUT_SETTINGS.useMouse,
+                            useTouch: INPUT_SETTINGS.useTouch
+                        }),
+                        keyboard: INPUT_SETTINGS.useKeyboard = new pc.Keyboard(window),
+                        mouse: INPUT_SETTINGS.useMouse = new pc.Mouse(canvas),
+                        gamepads: INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
+                        touch: INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
+                    };
+                    return result;
+                };
+          devices = createInputDevices(canvas)
+          const displayError =(html)=>{
+                    return(
+                        <table>
                     <tr>
                         <td>
                             <div>
@@ -57,8 +67,7 @@ const CanvasProject = props => {
                     </tr>
                 </table>)
             }
-
-             try {
+            try {
                 app =  new pc.Application(canvas,
                     {
                         elementInput: devices.elementInput,
@@ -71,6 +80,7 @@ const CanvasProject = props => {
                         scriptPrefix: SCRIPT_PREFIX || "",
                         scriptsOrder: SCRIPTS || []
                     });
+                   
                 } catch (e) {
                     if (e instanceof pc.UnsupportedBrowserError) {
                         displayError('This page requires a browser that supports WebGL.<br/>' +
@@ -83,7 +93,6 @@ const CanvasProject = props => {
                     }
                     return;
                 }
-
                 let configure = function () {
                     app.configure("modele/config.json", function (err) {
                         if (err) {console.error(err)}
@@ -98,13 +107,14 @@ const CanvasProject = props => {
                         })
                     });
                 }
-
                 LoadModules(PRELOAD_MODULES, ASSET_PREFIX, configure);
-            },[props]);
-        
+               setApp(app)
+            };
     return (
-        <div className="can">
-            <canvas id='application' ref={canvasRef}></canvas>
+        <div className={styles.can}>
+            <Conf appRef= {app}/>
+            <canvas id="ls-modele-1" ref={canvasRef}/>
+
         </div>
     )
 }

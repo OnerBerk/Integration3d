@@ -1065,7 +1065,7 @@ LsonDemandManager.attributes.add("serverPicture", {type: "entity"}), LsonDemandM
     default: .4
 });
 var l_App = pc.app;
-console.log(l_App), LsonDemandManager.prototype.initialize = function () {
+ LsonDemandManager.prototype.initialize = function () {
     var e = new LSWebSocket("ws://127.0.0.1:4649/WSS"), t = new LSContext(this), a = this;
     this.image = new Image, this.texture = new pc.Texture(a.app.graphicsDevice), this.texture.mipmaps = !1, this.texture.flipY = !1, this.imageIsVisible = !0, this.currentAlpha = {value: 0}, this.tweenAlphaIn = this.entity.tween(this.currentAlpha).to({value: 1}, this.fadeInOutDuration, pc.QuinticIn).on("update", function () {
         a.serverPicture.element.material.opacity = a.currentAlpha.value, a.serverPicture.element.material.update()
@@ -1123,9 +1123,9 @@ class LSContext {
         this.fov = fov;
 
         this.script.app.fire("ondemand:askForNewImage");
-        console.log(pitch)
-        console.log(yaw)
-        console.log(distance)
+        // console.log(pitch)
+        // console.log(yaw)
+        // console.log(distance)
     }
 
     UpdateColor(color) {
