@@ -1,39 +1,20 @@
-import React, { useState } from 'react'
-import Button from '../componentUi/button/button'
+import React,{useState} from 'react'
+import {setFire} from "../../utils/fireFunction"
+
+
+import styles from "../../styles/conf.module.scss"
 
 
 const Environment = (props) => {
-    const [environment, setenvironment] =useState('')
-
-    const mountain = () => {
-        console.log('mountain',environment)
-        return(
-            setenvironment('mountain')
-            
-        )}
-    const road = () => {
-        console.log('road')
-        return(
-            setenvironment('road')
-        )}
-    const heli = () => {
-        console.log('heli')
-        return(
-            setenvironment('heli')
-        )}
-    const bridge = () => {
-        console.log('bridge')
-            return(
-                setenvironment('bridge')
-            )}
-
+    const [newEnv, setNewEnv]=useState("")
+    let app = props.appRef
+    setFire("env", newEnv, app )
     return(
-        <div className="environment">
-            <Button className="mountain" onClick={()=> {mountain()}}>Mountain  </Button> 
-            <Button className="road" onClick={()=> {road()}}> Road </Button>
-            <Button className="heli" onClick={()=> {heli(); setenvironment('heli')}}> Heli </Button> 
-            <Button className="bridge" onClick={()=> {bridge(); setenvironment('Bridge')}}> Bridge </Button>     
+        <div className={styles.subMenu}>
+            <p className={styles.colorRed} onClick={()=> setNewEnv("heli")}> Heli  </p>
+            <p className={styles.colorBlack} onClick={()=> setNewEnv("bridge") }> Bridge </p>
         </div>
     )
 }
+
 export default Environment

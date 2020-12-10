@@ -31,8 +31,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lightandshadow/src/utils/fireFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/accesory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/intExt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" afterDir="false" />
@@ -85,7 +95,7 @@
       <workItem from="1607359291484" duration="80000" />
       <workItem from="1607418558298" duration="7589000" />
       <workItem from="1607504071956" duration="2823000" />
-      <workItem from="1607590465043" duration="5126000" />
+      <workItem from="1607590465043" duration="18866000" />
     </task>
     <servers />
   </component>
@@ -105,6 +115,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="358" y="215" key="#Inspections" timestamp="1607608623051">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="358" y="215" key="#Inspections/0.25.1920.1055@0.25.1920.1055" timestamp="1607608623051" />
+    <state x="255" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607620861246">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="255" y="282" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1607620861246" />
     <state width="1060" height="169" key="GridCell.Tab.0.bottom" timestamp="1606830159516">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -125,9 +143,14 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="580" y="171" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1607355310254" />
-    <state x="243" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1607431535231">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1607607780538">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.25.1920.1055@0.25.1920.1055" timestamp="1607607780538" />
+    <state x="243" y="268" width="670" height="675" key="search.everywhere.popup" timestamp="1607618747797">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="243" y="266" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1607431535231" />
+    <state x="243" y="268" width="670" height="675" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1607618747797" />
   </component>
 </project>

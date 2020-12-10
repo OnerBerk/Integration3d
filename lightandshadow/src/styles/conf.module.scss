@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 
-$minimise-screen:1175px;
+$minimise-screen:670px;
 $big-screen-phone:600px;
 $mainFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
 .conf{
+    width: 95%;
     height: 18vh;
     padding-bottom: 1em;
 }
@@ -16,31 +17,44 @@ $mainFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
 }
 .main,p{
     color: floralwhite;
-    font-size:1.35em;
-    margin: auto;
+    font-size:1.25em;
+    margin-left: auto;
+    margin-right: auto;
 }
 main,p:hover{
     color: rgb(55, 91, 133);
     font-weight: bolder;
 }
+.subMenu{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    margin-top: -7em;
+}
+
 .colorRed:hover{
     color: rgb(212, 10, 10);
 }
 .colorGreen:hover{
     color: rgb(76, 209, 116);
 }
-.color{
-    display: flex;
-    flex-direction:row ;
-    margin-top: -3em;
-}
-.colorRed, .colorBlack, .colorGreen{ 
-    width: 7em;
-    height: 5em;
-    font-family: $mainFont;
-}
-.mountain, .road, .heli, .bridge{ 
 
+.colorRed, .colorBlack, .colorGreen{
+    margin-left: 0;
+    margin-right: 0;
+    width: 4em;
+    height: 2em;
+    font-family: $mainFont;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width:$minimise-screen){
+    .main p{
+        font-size: smaller;
+    }
+    .colorRed, .colorBlack, .colorGreen{
+        font-size: smaller;
+    }
 }
 
 
