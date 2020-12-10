@@ -93,10 +93,25 @@ const CanvasProject = ( props )=> {
                     }
                     return;
                 }
+
+        const reflow = function () {
+            app.resizeCanvas(canvas.width, canvas.height);
+            canvas.style.width = ''; canvas.style.height = '';
+
+            const fillMode = app._fillMode;
+
+            if (fillMode == pc.FILLMODE_NONE || fillMode == pc.FILLMODE_KEEP_ASPECT) {
+                if ((fillMode == pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
+                    canvas.style.marginTop = 0 + 'px';
+                } else {canvas.style.marginTop = '';}
+            }
+        };
+
                 let configure = function () {
                     app.configure("modele/config.json", function (err) {
                         if (err) {console.error(err)}
                         setTimeout(function () {
+                            reflow()
                             app.preload(function (err) {
                                 if (err) { console.error(err) }
                             app.loadScene("modele/953348.json", function (err) {
@@ -108,13 +123,14 @@ const CanvasProject = ( props )=> {
                     });
                 }
                 LoadModules(PRELOAD_MODULES, ASSET_PREFIX, configure);
-               setApp(app)
+                setApp(app)
             };
+
+
     return (
         <div className={styles.can}>
             <Conf appRef= {app}/>
             <canvas id="ls-modele-1" ref={canvasRef}/>
-
         </div>
     )
 }

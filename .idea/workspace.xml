@@ -32,16 +32,10 @@
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/playcanvas-stable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/playcanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/configuration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/configuration.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statictac/__game-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/statictac/__game-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +85,7 @@
       <workItem from="1607359291484" duration="80000" />
       <workItem from="1607418558298" duration="7589000" />
       <workItem from="1607504071956" duration="2823000" />
+      <workItem from="1607590465043" duration="5126000" />
     </task>
     <servers />
   </component>

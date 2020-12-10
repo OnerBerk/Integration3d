@@ -3,17 +3,21 @@
 $minimise-screen:1175px;
 $big-screen-phone:600px;
 $mainFont:'Gilda Display','Cambria', 'Cochin','Bangers', cursive;
-
+.conf{
+    height: 18vh;
+    padding-bottom: 1em;
+}
 .main{
+    width: 95%;
+    height: 18vh;
     font-family: $mainFont;
     display: flex;
     flex-direction: row;
-    padding-left: 1em;
 }
 .main,p{
     color: floralwhite;
     font-size:1.35em;
-    margin-right:0.3em ;
+    margin: auto;
 }
 main,p:hover{
     color: rgb(55, 91, 133);
@@ -29,24 +33,14 @@ main,p:hover{
     display: flex;
     flex-direction:row ;
     margin-top: -3em;
-    margin-right:0.5em ;
-    margin-bottom: -7em;
 }
 .colorRed, .colorBlack, .colorGreen{ 
     width: 7em;
     height: 5em;
-    padding-left: 1em;
-    padding-bottom: 0.5em;
     font-family: $mainFont;
 }
 .mountain, .road, .heli, .bridge{ 
-    width: 5em;
-    height: 5em;
-    border-radius: 50%;
-    outline: none;
-    padding: 1em;
-    margin-left: -0.8em;
-    background-color: rgb(250, 176, 127);
+
 }
 
 
