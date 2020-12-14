@@ -1,0 +1,15 @@
+.can {
+  margin: auto;
+  width: 98%;
+  height: 100vh;
+  display: grid;
+  grid-gap: 0.9em;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 42%;
+}
+
+.can canvas {
+  width: 98%;
+  margin: auto;
+}
+

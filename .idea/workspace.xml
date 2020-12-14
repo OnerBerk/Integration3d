@@ -31,21 +31,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lightandshadow/src/utils/fireFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ls-car-config/src/component/component3d/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ls-car-config/src/util/canvas-callback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/integration .css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration .css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integration/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/public/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/accesory.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/intExt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/material.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/component/configuration/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/.nvmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/__game-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/__game-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822114/1/Concrete_AO-dxt.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822114/1/Concrete_AO-dxt.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822114/1/Concrete_AO-etc1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822114/1/Concrete_AO-etc1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822114/1/Concrete_AO-pvr.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822114/1/Concrete_AO-pvr.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822114/1/Concrete_AO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822114/1/Concrete_AO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822117/1/plastic_normals.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822117/1/plastic_normals.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822118/1/metal_gloss-dxt.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822118/1/metal_gloss-dxt.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822118/1/metal_gloss-etc1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822118/1/metal_gloss-etc1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822118/1/metal_gloss-pvr.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822118/1/metal_gloss-pvr.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822118/1/metal_gloss.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822118/1/metal_gloss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822119/1/metal_normals.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822119/1/metal_normals.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822121/1/Helipad.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822121/1/Helipad.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822125/1/gold_AO-dxt.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822125/1/gold_AO-dxt.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822125/1/gold_AO-etc1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822125/1/gold_AO-etc1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822125/1/gold_AO-pvr.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822125/1/gold_AO-pvr.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822125/1/gold_AO.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822125/1/gold_AO.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822129/1/Helipad_posx.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822129/1/Helipad_posx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822131/1/Helipad_negx.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822131/1/Helipad_negx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822133/1/playcanvas.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822133/1/playcanvas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822135/1/Helipad_posz.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822135/1/Helipad_posz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822137/1/Helipad_negz.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822137/1/Helipad_negz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822139/1/Helipad_posy.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822139/1/Helipad_posy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822140/1/plastic_gloss-dxt.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822140/1/plastic_gloss-dxt.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822140/1/plastic_gloss-etc1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822140/1/plastic_gloss-etc1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822140/1/plastic_gloss-pvr.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822140/1/plastic_gloss-pvr.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822140/1/plastic_gloss.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822140/1/plastic_gloss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32822143/1/Helipad_negy.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32822143/1/Helipad_negy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32830164/1/circle-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32830164/1/circle-outline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32884412/1/TooltipCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32884412/1/TooltipCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32884413/1/tooltipHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32884413/1/tooltipHTML.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/32950669/1/circle-outline2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/32950669/1/circle-outline2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275894/1/Bridge.dds" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275894/1/Bridge.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275961/1/negy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275961/1/negy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275962/1/negx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275962/1/negx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275963/1/posz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275963/1/posz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275964/1/posy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275964/1/posy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275965/1/posx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275965/1/posx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33275966/1/negz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33275966/1/negz.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/files/assets/33491331/1/start_image.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/files/assets/33491331/1/start_image.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/953348.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/modele/953348.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/__loading__.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/modele/__loading__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/modele/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/modele/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/__modules__.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/component3d/__modules__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/component3d/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/componentUi/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/componentUi/button/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/configuration/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/configuration/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/configuration/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/intExt.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/configuration/intExt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/component/configuration/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/configuration/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/redux/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/redux/rootReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/App.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/App.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Button.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Header.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Introduction.stories.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/Page.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/code-brackets.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/code-brackets.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/colors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/colors.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/comments.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/comments.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/direction.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/direction.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/flow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/flow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/plugin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/plugin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/repo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/repo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/assets/stackalt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/assets/stackalt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/canvas.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/configurator.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/configurator.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/stories/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/stories/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/canvas.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/conf.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightandshadow/src/utils/fireFunction.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +150,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/integration" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +182,10 @@
       <workItem from="1607418558298" duration="7589000" />
       <workItem from="1607504071956" duration="2823000" />
       <workItem from="1607590465043" duration="18866000" />
+      <workItem from="1607682278210" duration="587000" />
+      <workItem from="1607699806125" duration="4094000" />
+      <workItem from="1607892362442" duration="73000" />
+      <workItem from="1607944452718" duration="3534000" />
     </task>
     <servers />
   </component>
