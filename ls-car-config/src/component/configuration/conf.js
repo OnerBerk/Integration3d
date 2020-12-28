@@ -23,6 +23,7 @@ const Conf = (props) => {
 
     return (
         <div className={styles.conf}>
+            
             <div className={styles.main}>
                 <p onClick={() => {
                     setAllFalse();
@@ -41,11 +42,13 @@ const Conf = (props) => {
                     setViewBtn(!viewbtn)
                 }}> View </p>
             </div>
-            {colorbtn && <div className={styles.menuColor}>< Color appRef={app}/></div>}
-            {environmentbtn && <div className={styles.menuEnvironment}>< Environment appRef={app}/></div>}
-            {intExtbtn && <div className={styles.menuAccesory}>< IntExt appRef={app}/></div>}
-            {viewbtn && <div className={styles.menuView}>< View appRef={app}/>
-            </div>}
+            <div className={styles.detail}>
+                {colorbtn && <div className={styles.menuColor}>< Color appRef={app}/></div>}
+                {environmentbtn && <div className={styles.menuEnvironment}>< Environment appRef={app}/></div>}
+                {intExtbtn && <div className={styles.menuAccesory}>< IntExt appRef={app}/></div>}
+                {viewbtn && <div className={styles.menuView}>< View appRef={app}/></div>}
+            </div>
+
         </div>
     )
 }

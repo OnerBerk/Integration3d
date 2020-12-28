@@ -1,0 +1,8 @@
+{
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "short_name": "OnDemandFrontDemo",
+  "name": "OnDemandFrontDemo",
+  "start_url": "",
+  "display": "fullscreen"
+}

@@ -6,15 +6,22 @@
 body {
     text-align: center;
     align-items: center;
+    color: snow;
+    background-color: #252525;
 }
 
 .article {
     margin: auto;
     text-align: center;
-    width: 80%
-}
+    width: 80%;
 
-iframe {
-    width: 90%;
-    height: 48em;
+}
+.module{
+    width: 100%;
+    margin: auto
+;
+}
+#root{
+    width: 80%;
+    margin: auto;
 }
