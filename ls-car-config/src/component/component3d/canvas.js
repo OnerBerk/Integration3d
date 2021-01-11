@@ -1,19 +1,24 @@
+//import config from "./setting"
 import React, {useEffect, useRef, useState} from 'react'
-import LoadModules from "./__modules__"
 import Conf from "../configuration/conf"
-import config from "./setting"
-import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
+import LoadModules from "./__modules__.js"
 
-import styles from "../../styles/canvas.module.scss"
+import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
+import styles from "../../styles/canvas.module.scss";
+
+import {DownloadFile} from "../../util/dowload-file"
 
 const CanvasProject = () => {
     let [app, setApp] = useState()
     const pc = window.pc
     const canvasRef = useRef(null)
+    let config = "http://localhost:8000/lightandshadow/tictac/setting.js"
 
+        let data = DownloadFile("http://localhost:8000/lightandshadow/tictac/__modules__.js")
 
     useEffect(() => {
         start()
+        console.log(data)
     }, []);
 
     const start = () => {
@@ -49,7 +54,7 @@ const CanvasProject = () => {
         }
 
         let configure = function () {
-            app.configure("modele/config.json", function (err) {
+            app.configure("http://localhost:8000/lightandshadow/tictac/config.json", function (err) {
                 if (err) {
                     console.error(err)
                 }
@@ -59,7 +64,7 @@ const CanvasProject = () => {
                         if (err) {
                             console.error(err)
                         }
-                        app.loadScene("modele/953348.json", function (err) {
+                        app.loadScene("http://localhost:8000/lightandshadow/tictac/953348.json", function (err) {
                             if (err) {
                                 console.error(err)
                             }
