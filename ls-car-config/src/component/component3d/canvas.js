@@ -1,32 +1,20 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Conf from "../configuration/conf"
-import LoadModules from "./__modules__.js"
 import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
 import styles from "../../styles/canvas.module.scss";
-import useScript from "../../util/useScript";
-
 
 const CanvasProject = () => {
-    const host = "http://localhost:8000/lightandshadow/tictac/"
-    let [app, setApp] = useState()
     const pc = window.pc
+    const loadModule = window["lightandshadow_module"]
+    const config = window["lightandshadow_setting"]
+    const host = "http://localhost:8000/lightandshadow/tictac/"
+
+    let [app, setApp] = useState()
     const canvasRef = useRef(null)
-    let config = host + "setting.js"
 
-
-/*
-   const status = useScript(host + "__modules__.js")
-    if(status === "ready"){
-         console.log('je suis chargé')
-    }
-*/
-
-useEffect(() => {
+    useEffect(() => {
         start()
     }, []);
-
-
-
 
     const start = () => {
         let devices, canvas
@@ -80,11 +68,10 @@ useEffect(() => {
                 })
             });
         }
-        LoadModules(config.PRELOAD_MODULES, config.ASSET_PREFIX, configure);
-
-
+        loadModule(config.PRELOAD_MODULES, config.ASSET_PREFIX, configure);
         setApp(app)
     };
+
 
     return (
         <div className={styles.can}>

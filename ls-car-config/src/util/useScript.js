@@ -1,28 +1,8 @@
 import {useState,useEffect} from 'react';
-/*
-function useScript(id, url, callback) {
-    const isScriptExist = document.getElementById(id);
 
-    if (!isScriptExist) {
-        const script =  document.createElement("script");
-        script.type = "text/javascript";
-        script.src = url;
-        script.id = id;
-        script.async = true;
-        window.onload = function () {
-            if (callback) callback();
-        };
-        document.body.appendChild(script);
-    return script
-    }
-    if (isScriptExist && callback) callback();
-
-
-}*/
 function useScript(src) {
     // Keep track of script status ("idle", "loading", "ready", "error")
     const [status, setStatus] = useState(src ? "loading" : "idle");
-
     useEffect(
         () => {
             if (!src) {

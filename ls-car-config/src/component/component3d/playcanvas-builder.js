@@ -1,9 +1,9 @@
-import config from "./setting";
 import React from "react";
 
 const pc = window.pc
 
 export function createInputDevices(canvas) {
+    let config = window["lightandshadow_setting"]
     return {
         elementInput: new pc.ElementInput(canvas, {
             useMouse: config.INPUT_SETTINGS.useMouse,
