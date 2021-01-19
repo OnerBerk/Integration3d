@@ -364,6 +364,9 @@ ChangeColor.prototype.initialize = function () {
         case"black":
             o = 2, this.entity.model.material.diffuse = new pc.Color(0, 0, 0);
             break;
+        case"blue":
+            o = 2, this.entity.model.material.diffuse = new pc.Color(0, 0, 1);
+            break;
         default:
             console.log("Unexpected color : " + e)
     }
@@ -1121,7 +1124,6 @@ class LSContext {
         this.yaw = -yaw + 180;
         this.distance = distance;
         this.fov = fov;
-
         this.script.app.fire("ondemand:askForNewImage");
         // console.log(pitch)
         // console.log(yaw)

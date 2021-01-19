@@ -14,6 +14,7 @@ const Template = (args) => <Button {...args} > Hello button </Button>;
 
 export const Primary = Template.bind({});
 Primary.args = {
+    title: 'Component',
     primary: true,
     label: 'Click',
 };
@@ -22,5 +23,3 @@ export const Secondary = Template.bind({});
 Secondary.args = {
     label: 'Button',
 };
-
-

@@ -1,6 +1,6 @@
 import React from 'react';
 import {action} from '@storybook/addon-actions'
-import App from '../app';
+import App from '../App';
 
 export default {
     title: 'App',
