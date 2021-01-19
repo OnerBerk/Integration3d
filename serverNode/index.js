@@ -10,7 +10,6 @@ const downfunc = require("./utils/dowload")
 app.use(cors())
 
 //rwfunc.readandremplace('./lightandshadow/tictac/test.json', /url/g, "urli")
-const downfunc = require("./utils/dowload")
 
 app.get('/', (req, res) => {
     res.set('Content-Type', 'text/html');

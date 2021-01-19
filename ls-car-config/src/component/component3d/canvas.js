@@ -1,32 +1,38 @@
-//import config from "./setting"
 import React, {useEffect, useRef, useState} from 'react'
 import Conf from "../configuration/conf"
 import LoadModules from "./__modules__.js"
-
 import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
 import styles from "../../styles/canvas.module.scss";
+import useScript from "../../util/useScript";
 
-import {DownloadFile} from "../../util/dowload-file"
 
 const CanvasProject = () => {
+    const host = "http://localhost:8000/lightandshadow/tictac/"
     let [app, setApp] = useState()
     const pc = window.pc
     const canvasRef = useRef(null)
-    let config = "http://localhost:8000/lightandshadow/tictac/setting.js"
+    let config = host + "setting.js"
 
-        let data = DownloadFile("http://localhost:8000/lightandshadow/tictac/__modules__.js")
 
-    useEffect(() => {
+/*
+   const status = useScript(host + "__modules__.js")
+    if(status === "ready"){
+         console.log('je suis chargé')
+    }
+*/
+
+useEffect(() => {
         start()
-        console.log(data)
     }, []);
+
+
+
 
     const start = () => {
         let devices, canvas
         canvas = canvasRef.current
         devices = createInputDevices(canvas);
         displayError();
-
         try {
             app = new pc.Application(canvas,
                 {
@@ -54,7 +60,7 @@ const CanvasProject = () => {
         }
 
         let configure = function () {
-            app.configure("http://localhost:8000/lightandshadow/tictac/config.json", function (err) {
+            app.configure(host + "config.json", function (err) {
                 if (err) {
                     console.error(err)
                 }
@@ -64,7 +70,7 @@ const CanvasProject = () => {
                         if (err) {
                             console.error(err)
                         }
-                        app.loadScene("http://localhost:8000/lightandshadow/tictac/953348.json", function (err) {
+                        app.loadScene(host + "953348.json", function (err) {
                             if (err) {
                                 console.error(err)
                             }
@@ -75,9 +81,10 @@ const CanvasProject = () => {
             });
         }
         LoadModules(config.PRELOAD_MODULES, config.ASSET_PREFIX, configure);
+
+
         setApp(app)
     };
-
 
     return (
         <div className={styles.can}>
@@ -87,3 +94,4 @@ const CanvasProject = () => {
     )
 }
 export default CanvasProject
+

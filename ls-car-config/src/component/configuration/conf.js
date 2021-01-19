@@ -36,7 +36,7 @@ const Conf = (props) => {
                 <p onClick={() => {
                     setAllFalse();
                     setIntExtBtn(!intExtbtn)
-                }}> Int / Ext </p>
+                }}> Int </p>
                 <p onClick={() => {
                     setAllFalse();
                     setViewBtn(!viewbtn)
