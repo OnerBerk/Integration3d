@@ -1,17 +1,33 @@
-.header{
+.header {
     width: 100%;
     border: 2px solid black
 }
-body{
-    text-align:center;
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    color: snow;
+    background-color: #252525;
 }
-.article{
+
+.article {
     margin: auto;
     text-align: center;
-    width:80%
+    width: 80%;
+
 }
-iframe{
-    width: 90%;
-    height: 48em;
+.module{
+    width: 100%;
+    margin: auto
+;
+}
+#root{
+    width: 80%;
+    margin: auto;
+}
+.main{
+    width: 70%;
 }
