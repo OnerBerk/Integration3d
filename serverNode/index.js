@@ -5,7 +5,7 @@ let cors = require('cors')
 const serveIndex = require('serve-index');
 
 const rwfunc = require("./utils/liEtRemplace")
-const downfunc = require("./utils/dowload")
+const downfunc = require("./utils/download")
 
 app.use(cors())
 

@@ -1,6 +1,3 @@
-const {strict} = require('assert');
-const {readFile} = require('fs');
-const readLastLines = require('read-last-lines');
 const replace = require("replace-in-file")
 
 let fs = require('fs')
@@ -21,7 +18,7 @@ function ReplaceAfterDownload(file, from, to) {
         });
 }
 
-function ReplaceExport(file,to) {
+const ReplaceExport = (file, to) => {
     fs.readFile(file, function (err, data) {
         if (err) {
             throw err
@@ -30,9 +27,10 @@ function ReplaceExport(file,to) {
         let str = buf.toString("utf-8",);
         let split = str.split(/\s*[\r\n]+\s*/g)
         let last = split[split.length - 1]
-        let index = last.lastIndexOf("")
+        //let index = last.lastIndexOf("")
         console.log(last)
-        ReplaceAfterDownload(file, last, to )
+        ReplaceAfterDownload(file, last, to)
+        console.log(last)
     })
 }
 
