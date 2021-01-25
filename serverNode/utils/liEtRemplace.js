@@ -1,52 +1,42 @@
-const { strict } = require('assert');
-const { readFile } = require('fs');
+const {strict} = require('assert');
+const {readFile} = require('fs');
 const readLastLines = require('read-last-lines');
+const replace = require("replace-in-file")
 
-let fs = require('fs').promises
+let fs = require('fs')
 
-function readandremplace(file, from, to) {
+function ReplaceAfterDownload(file, from, to) {
+    const options = {
+        files: file,
+        from: from,
+        to: to
+    }
+    replace(options)
+        .then(results => {
+            console.log('Replacement results:', results);
+            return results
+        })
+        .catch(error => {
+            console.error('Error occurred:', error);
+        });
+}
+
+function ReplaceExport(file,to) {
     fs.readFile(file, function (err, data) {
-        if (fs.existsSync(file)) {
-            let result = data.replace(from, to);
-            fs.writeFile(file, result, 'utf8', function (err) {
-                if (err) {
-                    return console.log(err);
-                } else {
-                    console.log("occurrences remplacés ")
-                }
-            })
-        } else {
-            return console.log("pas de fichier a ce nom")
+        if (err) {
+            throw err
         }
+        let buf = Buffer.from(data);
+        let str = buf.toString("utf-8",);
+        let split = str.split(/\s*[\r\n]+\s*/g)
+        let last = split[split.length - 1]
+        let index = last.lastIndexOf("")
+        console.log(last)
+        ReplaceAfterDownload(file, last, to )
     })
 }
 
-function read(file){
-    let jsonFile =[]
-    fs.readFile(file, (err, data) => {
-        if (err) throw err;
-         jsonFile = JSON.parse(data);
-        console.log(jsonFile);
-    });
-}
 
-
-const removestr = async(file)=>{
-readLastLines.read(file, 1)
-    .then((lines) => console.log(lines)) 
-}
-
-const addLine = async(file, data)=>{
-    if(data)
-    await fs.appendFile(file, data, "utf8",
-    function(err){
-        if(err){
-            console.log(err)
-        }
-        console.log("ajouter avec succés")
-    })
-}
-
-module.exports = {readandremplace,read,removestr,addLine}
+module.exports = {ReplaceExport, ReplaceAfterDownload}
 
 

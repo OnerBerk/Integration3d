@@ -21,7 +21,7 @@ $big-screen-phone: 600px;
 
 .main, p {
   color: floralwhite;
-  font-size: 1.25em;
+  font-size: 1.45em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,15 +59,16 @@ main, p:hover {
   margin-right: 0;
   width: 4em;
   height: 2em;
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: $minimise-screen) {
   .main p {
-    font-size: smaller;
+    font-size: 1em;
   }
   .colorRed, .colorBlack, .colorGreen,.colorBlue {
-    font-size: smaller;
+    font-size: 1em;
+    margin-top: -0.3em;
   }
 }
 

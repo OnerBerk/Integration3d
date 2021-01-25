@@ -1,3 +1,6 @@
+$minimise-screen: 670px;
+$big-screen-phone: 600px;
+
 .can {
   margin: auto;
   width: 98%;
@@ -8,7 +11,11 @@
   grid-template-rows: 20% 55%;
 }
 .can canvas {
-  width: 98%;
+  width: 83%;
   margin: auto;
+  border: 2px solid snow;
 }
 
+canvas{
+  border: 10px solid red;
+}

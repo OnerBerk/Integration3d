@@ -9,11 +9,11 @@ const downfunc = require("./utils/dowload")
 
 app.use(cors())
 
-
-//rwfunc.readandremplace('./lightandshadow/tictac/test.json', /url/g, "urli")
 //downfunc.dowload("http://localhost:8080/conf.zip")
-
-
+rwfunc.ReplaceAfterDownload('./lightandshadow/tictac/testReplace.json', /"url": "_/g, "\"url\": \"http://localhost:8000/lightandshadow/tictac/_")
+rwfunc.ReplaceAfterDownload('./lightandshadow/tictac/testReplace.json', /"url": "f/g, "\"url\": \"http://localhost:8000/lightandshadow/tictac/f")
+rwfunc.ReplaceAfterDownload('./lightandshadow/tictac/testReplace.json', /"url": "9/g, "\"url\": \"http://localhost:8000/lightandshadow/tictac/9")
+rwfunc.ReplaceExport('./lightandshadow/tictac/testReplace.js',"window.lightandshadow_setting =  Setting")
 
 app.get('/', (req, res) => {
     res.set('Content-Type', 'text/html');

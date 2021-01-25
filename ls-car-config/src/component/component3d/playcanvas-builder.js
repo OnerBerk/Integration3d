@@ -38,7 +38,7 @@ export function reflow (app, canvas) {
 
     if (fillMode === pc.FILLMODE_NONE || fillMode === pc.FILLMODE_KEEP_ASPECT) {
         if ((fillMode === pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
-            canvas.style.marginTop = 0 + 'px';
+            canvas.style.marginTop = -50 + 'px';
         } else {
             canvas.style.marginTop = '';
         }

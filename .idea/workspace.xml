@@ -31,11 +31,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/light-and-shadow-react-car-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/light-and-shadow-react-car-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverNode/lightandshadow/tictac/testReplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serverNode/lightandshadow/tictac/testReplace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/integration .css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration .css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ls-car-config/src/component/component3d/playcanvas-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/component/component3d/playcanvas-builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ls-car-config/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/canvas.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ls-car-config/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ls-car-config/src/styles/conf.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverNode/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/serverNode/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverNode/lightandshadow/tictac/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverNode/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/serverNode/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverNode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/serverNode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverNode/utils/liEtRemplace.js" beforeDir="false" afterPath="$PROJECT_DIR$/serverNode/utils/liEtRemplace.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +62,103 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/serverNode/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/serverNode/lightandshadow/tictac" />
+      <recent name="$PROJECT_DIR$/serverNode/lightandshadow" />
       <recent name="$PROJECT_DIR$/integration" />
     </key>
+  </component>
+  <component name="RunManager" selected="Mocha.remplace la derniere ligne par une nouvelle">
+    <configuration name="remplace l'occurence par une autre" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/serverNode/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/serverNode</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/serverNode/test/test.js</test-file>
+      <test-names>
+        <name value="remplace l'occurence par une autre" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="remplace la derniere ligne et la remplace par une nouvelle" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/serverNode/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/serverNode</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/serverNode/test/test.js</test-file>
+      <test-names>
+        <name value="remplace la derniere ligne et la remplace par une nouvelle" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="remplace la derniere ligne par une nouvelle" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/serverNode/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/serverNode</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/serverNode/test/test.js</test-file>
+      <test-names>
+        <name value="remplace la derniere ligne par une nouvelle" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="remplace le mot par un autre" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/serverNode/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/serverNode</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/serverNode/test/test.js</test-file>
+      <test-names>
+        <name value="remplace le mot par un autre" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validator isNumValid()" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/serverNode/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/serverNode</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/serverNode/test/test.js</test-file>
+      <test-names>
+        <name value="validator isNumValid()" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.remplace la derniere ligne par une nouvelle" />
+        <item itemvalue="Mocha.remplace l'occurence par une autre" />
+        <item itemvalue="Mocha.remplace la derniere ligne et la remplace par une nouvelle" />
+        <item itemvalue="Mocha.remplace le mot par un autre" />
+        <item itemvalue="Mocha.validator isNumValid()" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +191,9 @@
       <workItem from="1607892362442" duration="73000" />
       <workItem from="1607944452718" duration="3534000" />
       <workItem from="1611090069250" duration="82000" />
-      <workItem from="1611221782995" duration="321000" />
+      <workItem from="1611221782995" duration="15647000" />
+      <workItem from="1611306798235" duration="8017000" />
+      <workItem from="1611564510499" duration="10320000" />
     </task>
     <servers />
   </component>
