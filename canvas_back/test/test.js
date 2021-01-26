@@ -1,7 +1,7 @@
 const chai = require("chai")
 const expect = chai.expect
 const validator = require("../utils/validator")
-const validator1 = require("../utils/liEtRemplace")
+const validator1 = require("../utils/read_and_replace")
 
 describe("validator isNumValid()", () => {
     it("doit retourner true pour un nombre entre 10 et 70", () => {

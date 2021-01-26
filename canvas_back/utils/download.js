@@ -22,4 +22,4 @@ async function download(url) {
     })
 }
 
-module.exports={dowload: download}
+module.exports={download}

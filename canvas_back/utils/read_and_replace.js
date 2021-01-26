@@ -2,7 +2,7 @@ const replace = require("replace-in-file")
 
 let fs = require('fs')
 
-function ReplaceAfterDownload(file, from, to) {
+function replaceAfterDownload(file, from, to) {
     const options = {
         files: file,
         from: from,
@@ -18,7 +18,7 @@ function ReplaceAfterDownload(file, from, to) {
         });
 }
 
-const ReplaceExport = (file, to) => {
+const replaceExport = (file, to) => {
     fs.readFile(file, function (err, data) {
         if (err) {
             throw err
@@ -29,12 +29,12 @@ const ReplaceExport = (file, to) => {
         let last = split[split.length - 1]
         //let index = last.lastIndexOf("")
         console.log(last)
-        ReplaceAfterDownload(file, last, to)
+        replaceAfterDownload(file, last, to)
         console.log(last)
     })
 }
 
 
-module.exports = {ReplaceExport, ReplaceAfterDownload}
+module.exports = {replaceExport, replaceAfterDownload}
 
 
