@@ -2,36 +2,40 @@ const replace = require("replace-in-file")
 
 let fs = require('fs')
 
-function replaceAfterDownload(file, from, to) {
+const replaceAfterDownload = async (file, from, from1, from2, to, to1, to2) => {
     const options = {
         files: file,
-        from: from,
-        to: to
+        from: [from, from1, from2],
+        to: [to, to1, to2],
     }
-    replace(options)
+    await replace(options)
         .then(results => {
             console.log('Replacement results:', results);
-            return results
         })
         .catch(error => {
             console.error('Error occurred:', error);
         });
 }
 
-const replaceExport = (file, to) => {
-    fs.readFile(file, function (err, data) {
-        if (err) {
-            throw err
-        }
+
+const replaceExport = async (file, text) => {
+    function callback() {
+        console.log("export added")
+    }
+
+    await fs.appendFile(file, text, "utf8", callback)
+
+    /*fs.readFile(file, function (err, data) {
+        if (err) {throw err}
         let buf = Buffer.from(data);
         let str = buf.toString("utf-8",);
-        let split = str.split(/\s*[\r\n]+\s*/g)
+        let split = str.split(/\s*[\r\n]+\s*!/g)
         let last = split[split.length - 1]
         //let index = last.lastIndexOf("")
         console.log(last)
         replaceAfterDownload(file, last, to)
         console.log(last)
-    })
+    })*/
 }
 
 

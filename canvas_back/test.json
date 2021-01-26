@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "dxt": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO-dxt.dds"
+    },
+    "dxtf": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO-dxt.dds"
+    },
+    "dx": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/__game-scripts.js"
+    },
+    "dxs": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/985555.json"
+    },
+    "dxm": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/985555.json"
+    },
+    "sdx": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/__game-scripts.js"
+    },
+    "sdsx": {
+      "filename": "Concrete_AO-dxt.dds",
+      "url": "http://localhost:8000/lightandshadow/tictac/__game-scripts.js"
+    }
+  }
+}
+

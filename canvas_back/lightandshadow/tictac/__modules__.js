@@ -1,4 +1,4 @@
-const LoadModules = (modules, urlPrefix, doneCallback) => {
+var loadModules = function (modules, urlPrefix, doneCallback) {
 
     // check for wasm module support
     function wasmSupported() {
@@ -8,9 +8,7 @@ const LoadModules = (modules, urlPrefix, doneCallback) => {
                 if (module instanceof WebAssembly.Module)
                     return new WebAssembly.Instance(module) instanceof WebAssembly.Instance;
             }
-        } catch (e) {
-            console.log("erreur load")
-        }
+        } catch (e) { }
         return false;
     }
 
@@ -33,11 +31,7 @@ const LoadModules = (modules, urlPrefix, doneCallback) => {
         loadScriptAsync(jsUrl, function () {
             var lib = window[moduleName];
             window[moduleName + 'Lib'] = lib;
-            lib({
-                locateFile: function () {
-                    return binaryUrl;
-                }
-            }).then(function (instance) {
+            lib({ locateFile: function () { return binaryUrl; } } ).then( function (instance) {
                 window[moduleName] = instance;
                 doneCallback();
             });
@@ -73,5 +67,4 @@ const LoadModules = (modules, urlPrefix, doneCallback) => {
         });
     }
 };
-window.lightandshadow_module =  LoadModules
-
+window.lightandshadow_modules =  loadModules

@@ -8,27 +8,7 @@
     "use3dPhysics": false,
     "preferWebGl2": true,
     "preserveDrawingBuffer": false,
-    "scripts": [
-      32822138,
-      32822122,
-      32822124,
-      32822128,
-      32830139,
-      32830160,
-      32884471,
-      32949301,
-      32952826,
-      33276013,
-      33276709,
-      33298316,
-      33308095,
-      33312032,
-      33315680,
-      33316106,
-      33365213,
-      33365561,
-      33555901
-    ],
+    "scripts": [32822138, 32822122, 32822124, 32822128, 32830139, 32830160, 32884471, 32949301, 32952826, 33276013, 33276709, 33298316, 33308095, 33312032, 33315680, 33316106, 33365213, 33365561, 33555901],
     "transparentCanvas": false,
     "useDevicePixelRatio": true,
     "useLegacyScripts": false,
@@ -67,48 +47,39 @@
         "transparentSortMode": 3
       }
     },
-    "layerOrder": [
-      {
-        "layer": 0,
-        "transparent": false,
-        "enabled": true
-      },
-      {
-        "layer": 1,
-        "transparent": false,
-        "enabled": true
-      },
-      {
-        "layer": 2,
-        "transparent": false,
-        "enabled": true
-      },
-      {
-        "layer": 0,
-        "transparent": true,
-        "enabled": true
-      },
-      {
-        "layer": 3,
-        "transparent": false,
-        "enabled": true
-      },
-      {
-        "layer": 3,
-        "transparent": true,
-        "enabled": true
-      },
-      {
-        "layer": 4,
-        "transparent": true,
-        "enabled": true
-      },
-      {
-        "layer": 1000,
-        "transparent": true,
-        "enabled": true
-      }
-    ],
+    "layerOrder": [{
+      "layer": 0,
+      "transparent": false,
+      "enabled": true
+    }, {
+      "layer": 1,
+      "transparent": false,
+      "enabled": true
+    }, {
+      "layer": 2,
+      "transparent": false,
+      "enabled": true
+    }, {
+      "layer": 0,
+      "transparent": true,
+      "enabled": true
+    }, {
+      "layer": 3,
+      "transparent": false,
+      "enabled": true
+    }, {
+      "layer": 3,
+      "transparent": true,
+      "enabled": true
+    }, {
+      "layer": 4,
+      "transparent": true,
+      "enabled": true
+    }, {
+      "layer": 1000,
+      "transparent": true,
+      "enabled": true
+    }],
     "useLegacyAmmoPhysics": true,
     "useKeyboard": true,
     "useMouse": true,
@@ -118,12 +89,10 @@
     "externalScripts": [],
     "libraries": []
   },
-  "scenes": [
-    {
-      "name": "Main",
-      "url": "http://localhost:8000/lightandshadow/tictac/953348.json"
-    }
-  ],
+  "scenes": [{
+    "name": "Main",
+    "url": "http://localhost:8000/lightandshadow/tictac/953348.json"
+  }],
   "assets": {
     "32822114": {
       "data": {
@@ -366,60 +335,30 @@
     "32822120": {
       "data": {
         "shader": "blinn",
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": 32822114,
         "aoMapVertexColor": false,
         "aoMapChannel": "r",
         "aoMapUv": 1,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
         "occludeSpecular": 1,
-        "diffuse": [
-          0.9568627450980393,
-          0.43529411764705883,
-          0.058823529411764705
-        ],
+        "diffuse": [0.9568627450980393, 0.43529411764705883, 0.058823529411764705],
         "diffuseMap": null,
         "diffuseMapVertexColor": false,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
         "diffuseMapTint": false,
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "specular": [0.23, 0.23, 0.23],
         "specularMapVertexColor": false,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
         "specularMap": null,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularMapTint": false,
         "specularAntialias": true,
         "useMetalness": true,
@@ -427,14 +366,8 @@
         "metalnessMapVertexColor": false,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "metalnessMapTint": false,
         "metalness": 0,
         "conserveEnergy": true,
@@ -443,57 +376,29 @@
         "glossMapVertexColor": false,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
         "fresnelFactor": 0,
-        "emissive": [
-          0.9294117647058824,
-          0.43529411764705883,
-          0.18823529411764706
-        ],
+        "emissive": [0.9294117647058824, 0.43529411764705883, 0.18823529411764706],
         "emissiveMap": null,
         "emissiveMapVertexColor": false,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveMapTint": false,
         "emissiveIntensity": 0.07,
         "normalMap": 32822117,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 0.7,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaTest": 0,
         "opacity": 1,
@@ -501,14 +406,8 @@
         "opacityMapVertexColor": false,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -516,29 +415,15 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapVertexColor": false,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 1,
@@ -562,14 +447,7 @@
     },
     "32822121": {
       "data": {
-        "textures": [
-          32822129,
-          32822131,
-          32822139,
-          32822143,
-          32822135,
-          32822137
-        ],
+        "textures": [32822129, 32822131, 32822139, 32822143, 32822135, 32822137],
         "magFilter": 1,
         "minFilter": 5,
         "anisotropy": 1,
@@ -602,17 +480,7 @@
         "order": 100,
         "scripts": {
           "orbitCamera": {
-            "attributesOrder": [
-              "distanceMax",
-              "distanceMin",
-              "pitchAngleMax",
-              "pitchAngleMin",
-              "clampValues",
-              "inertiaFactor",
-              "focusEntity",
-              "frameOnStart",
-              "epsilon"
-            ],
+            "attributesOrder": ["distanceMax", "distanceMin", "pitchAngleMax", "pitchAngleMin", "clampValues", "inertiaFactor", "focusEntity", "frameOnStart", "epsilon"],
             "attributes": {
               "distanceMax": {
                 "type": "number",
@@ -691,10 +559,7 @@
         "order": 100,
         "scripts": {
           "mouseInput": {
-            "attributesOrder": [
-              "orbitSensitivity",
-              "distanceSensitivity"
-            ],
+            "attributesOrder": ["orbitSensitivity", "distanceSensitivity"],
             "attributes": {
               "orbitSensitivity": {
                 "type": "number",
@@ -872,60 +737,30 @@
     "32822130": {
       "data": {
         "shader": "blinn",
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": 32822125,
         "aoMapVertexColor": false,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
         "occludeSpecular": 1,
-        "diffuse": [
-          1,
-          1,
-          1
-        ],
+        "diffuse": [1, 1, 1],
         "diffuseMap": null,
         "diffuseMapVertexColor": false,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
         "diffuseMapTint": false,
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "specular": [0.23, 0.23, 0.23],
         "specularMapVertexColor": false,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
         "specularMap": 32822118,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularMapTint": false,
         "specularAntialias": true,
         "useMetalness": true,
@@ -933,14 +768,8 @@
         "metalnessMapVertexColor": false,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "metalnessMapTint": false,
         "metalness": 1,
         "conserveEnergy": true,
@@ -949,57 +778,29 @@
         "glossMapVertexColor": false,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
         "fresnelFactor": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": null,
         "emissiveMapVertexColor": false,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveMapTint": false,
         "emissiveIntensity": 1,
         "normalMap": 32822119,
-        "normalMapTiling": [
-          0.5,
-          0.5
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [0.5, 0.5],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 0.5,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaTest": 0,
         "opacity": 1,
@@ -1007,14 +808,8 @@
         "opacityMapVertexColor": false,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -1022,29 +817,15 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapVertexColor": false,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 1,
@@ -1113,14 +894,11 @@
     },
     "32822133": {
       "data": {
-        "mapping": [
-          {
-            "material": 32822130
-          },
-          {
-            "material": 32822120
-          }
-        ],
+        "mapping": [{
+          "material": 32822130
+        }, {
+          "material": 32822120
+        }],
         "area": 0
       },
       "file": {
@@ -1253,10 +1031,7 @@
         "order": 100,
         "scripts": {
           "touchInput": {
-            "attributesOrder": [
-              "orbitSensitivity",
-              "distanceSensitivity"
-            ],
+            "attributesOrder": ["orbitSensitivity", "distanceSensitivity"],
             "attributes": {
               "orbitSensitivity": {
                 "type": "number",
@@ -1458,11 +1233,7 @@
       "data": {
         "scripts": {
           "hotspot": {
-            "attributesOrder": [
-              "cameraEntity",
-              "radius",
-              "fadeDropOff"
-            ],
+            "attributesOrder": ["cameraEntity", "radius", "fadeDropOff"],
             "attributes": {
               "cameraEntity": {
                 "type": "entity",
@@ -1504,10 +1275,7 @@
       "data": {
         "scripts": {
           "pulse": {
-            "attributesOrder": [
-              "pulseTimeSecs",
-              "screenEntity"
-            ],
+            "attributesOrder": ["pulseTimeSecs", "screenEntity"],
             "attributes": {
               "pulseTimeSecs": {
                 "type": "number",
@@ -1589,55 +1357,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          1,
-          1,
-          1
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [1, 1, 1],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -1645,67 +1383,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 0,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 2,
-        "emissive": [
-          1,
-          1,
-          1
-        ],
+        "emissive": [1, 1, 1],
         "emissiveMap": 32950669,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 10,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -1713,14 +1417,8 @@
         "opacityMap": 32950669,
         "opacityMapChannel": "a",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -1728,28 +1426,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": false,
         "depthWrite": false,
         "cull": 1,
@@ -1785,55 +1469,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          1,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [1, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -1841,67 +1495,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 68.25,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": null,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -1909,14 +1529,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -1924,28 +1538,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 1,
@@ -2019,10 +1619,7 @@
       "data": {
         "scripts": {
           "htmltooltip": {
-            "attributesOrder": [
-              "css",
-              "html"
-            ],
+            "attributesOrder": ["css", "html"],
             "attributes": {
               "css": {
                 "type": "asset",
@@ -2060,9 +1657,7 @@
       "data": {
         "scripts": {
           "constantSizeInscreen": {
-            "attributesOrder": [
-              "factor"
-            ],
+            "attributesOrder": ["factor"],
             "attributes": {
               "factor": {
                 "type": "number",
@@ -2168,14 +1763,7 @@
       "meta": null,
       "data": {
         "name": "New Cubemap",
-        "textures": [
-          33275965,
-          33275962,
-          33275964,
-          33275961,
-          33275963,
-          33275966
-        ],
+        "textures": [33275965, 33275962, 33275964, 33275961, 33275963, 33275966],
         "minFilter": 5,
         "magFilter": 1,
         "anisotropy": 1
@@ -2482,10 +2070,7 @@
       "data": {
         "scripts": {
           "changeEnv": {
-            "attributesOrder": [
-              "envOne",
-              "envTwo"
-            ],
+            "attributesOrder": ["envOne", "envTwo"],
             "attributes": {
               "envOne": {
                 "type": "asset",
@@ -2523,13 +2108,7 @@
       "data": {
         "scripts": {
           "orbitCameraPov": {
-            "attributesOrder": [
-              "focusEntity",
-              "pitchAngle",
-              "yawAngle",
-              "distance",
-              "frameOnStart"
-            ],
+            "attributesOrder": ["focusEntity", "pitchAngle", "yawAngle", "distance", "frameOnStart"],
             "attributes": {
               "focusEntity": {
                 "type": "entity",
@@ -2589,21 +2168,13 @@
       "data": {
         "scripts": {
           "cameraManager": {
-            "attributesOrder": [
-              "interpolatioDuration",
-              "currentCamera"
-            ],
+            "attributesOrder": ["interpolatioDuration", "currentCamera"],
             "attributes": {
               "currentCamera": {
                 "type": "number",
                 "default": 0,
                 "enum": {
-                  "order": [
-                    "freeCamera",
-                    "POV1",
-                    "POV2",
-                    "POV3"
-                  ],
+                  "order": ["freeCamera", "POV1", "POV2", "POV3"],
                   "options": {
                     "freeCamera": 0,
                     "POV1": 1,
@@ -2690,55 +2261,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          1,
-          1,
-          1
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [1, 1, 1],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -2746,67 +2287,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": null,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -2814,14 +2321,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 8,
         "refraction": 0,
         "refractionIndex": 0.817,
@@ -2829,28 +2330,14 @@
         "cubeMap": 33275894,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -2886,55 +2373,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -2942,67 +2399,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822129,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3010,14 +2433,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -3025,28 +2442,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -3082,55 +2485,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -3138,67 +2511,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822131,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3206,14 +2545,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -3221,28 +2554,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -3278,55 +2597,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -3334,67 +2623,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822139,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3402,14 +2657,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -3417,28 +2666,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -3474,55 +2709,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -3530,67 +2735,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822143,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3598,14 +2769,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -3613,28 +2778,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -3670,55 +2821,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -3726,67 +2847,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822137,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3794,14 +2881,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -3809,28 +2890,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -3866,55 +2933,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, 1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, 1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, 1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -3922,67 +2959,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, 1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, 1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 0,
-        "emissive": [
-          0,
-          0,
-          0
-        ],
+        "emissive": [0, 0, 0],
         "emissiveMap": 32822135,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, 1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, 1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, 1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -3990,14 +2993,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, 1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -4005,28 +3002,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, 1],
+        "lightMapOffset": [0, 0],
         "depthTest": true,
         "depthWrite": true,
         "cull": 2,
@@ -4065,11 +3048,7 @@
         "order": 100,
         "scripts": {
           "lookCamera": {
-            "attributesOrder": [
-              "mouseLookSensitivity",
-              "touchLookSensitivity",
-              "snappinessFactor"
-            ],
+            "attributesOrder": ["mouseLookSensitivity", "touchLookSensitivity", "snappinessFactor"],
             "attributes": {
               "mouseLookSensitivity": {
                 "type": "number",
@@ -4113,14 +3092,7 @@
       "data": {
         "scripts": {
           "intExtManager": {
-            "attributesOrder": [
-              "intRoot",
-              "extRoot",
-              "freeCam",
-              "cameraDistanceAfterZoom",
-              "fadeInOutPicture",
-              "fadeInOutDuration"
-            ],
+            "attributesOrder": ["intRoot", "extRoot", "freeCam", "cameraDistanceAfterZoom", "fadeInOutPicture", "fadeInOutDuration"],
             "attributes": {
               "intRoot": {
                 "type": "entity"
@@ -4191,9 +3163,7 @@
       "data": {
         "scripts": {
           "lsonDemandManager": {
-            "attributesOrder": [
-              "serverPicture"
-            ],
+            "attributesOrder": ["serverPicture"],
             "attributes": {
               "serverPicture": {
                 "type": "entity"
@@ -4222,55 +3192,25 @@
       "preload": true,
       "meta": null,
       "data": {
-        "ambient": [
-          0,
-          0,
-          0
-        ],
+        "ambient": [0, 0, 0],
         "ambientTint": false,
         "aoMap": null,
         "aoMapChannel": "r",
         "aoMapUv": 0,
-        "aoMapTiling": [
-          1,
-          -1
-        ],
-        "aoMapOffset": [
-          0,
-          0
-        ],
-        "diffuse": [
-          0,
-          0,
-          0
-        ],
+        "aoMapTiling": [1, -1],
+        "aoMapOffset": [0, 0],
+        "diffuse": [0, 0, 0],
         "diffuseMap": null,
         "diffuseMapChannel": "rgb",
         "diffuseMapUv": 0,
-        "diffuseMapTiling": [
-          1,
-          -1
-        ],
-        "diffuseMapOffset": [
-          0,
-          0
-        ],
-        "specular": [
-          0.23,
-          0.23,
-          0.23
-        ],
+        "diffuseMapTiling": [1, -1],
+        "diffuseMapOffset": [0, 0],
+        "specular": [0.23, 0.23, 0.23],
         "specularMap": null,
         "specularMapChannel": "rgb",
         "specularMapUv": 0,
-        "specularMapTiling": [
-          1,
-          -1
-        ],
-        "specularMapOffset": [
-          0,
-          0
-        ],
+        "specularMapTiling": [1, -1],
+        "specularMapOffset": [0, 0],
         "specularAntialias": true,
         "occludeSpecular": 1,
         "useMetalness": false,
@@ -4278,67 +3218,33 @@
         "metalnessMap": null,
         "metalnessMapChannel": "r",
         "metalnessMapUv": 0,
-        "metalnessMapTiling": [
-          1,
-          -1
-        ],
-        "metalnessMapOffset": [
-          0,
-          0
-        ],
+        "metalnessMapTiling": [1, -1],
+        "metalnessMapOffset": [0, 0],
         "conserveEnergy": true,
         "shininess": 32,
         "glossMap": null,
         "glossMapChannel": "r",
         "glossMapUv": 0,
-        "glossMapTiling": [
-          1,
-          -1
-        ],
-        "glossMapOffset": [
-          0,
-          0
-        ],
+        "glossMapTiling": [1, -1],
+        "glossMapOffset": [0, 0],
         "fresnelModel": 2,
-        "emissive": [
-          1,
-          1,
-          1
-        ],
+        "emissive": [1, 1, 1],
         "emissiveMap": 33491331,
         "emissiveMapChannel": "rgb",
         "emissiveMapUv": 0,
-        "emissiveMapTiling": [
-          1,
-          -1
-        ],
-        "emissiveMapOffset": [
-          0,
-          0
-        ],
+        "emissiveMapTiling": [1, -1],
+        "emissiveMapOffset": [0, 0],
         "emissiveIntensity": 1,
         "normalMap": null,
-        "normalMapTiling": [
-          1,
-          -1
-        ],
-        "normalMapOffset": [
-          0,
-          0
-        ],
+        "normalMapTiling": [1, -1],
+        "normalMapOffset": [0, 0],
         "normalMapUv": 0,
         "bumpMapFactor": 1,
         "heightMap": null,
         "heightMapChannel": "r",
         "heightMapUv": 0,
-        "heightMapTiling": [
-          1,
-          -1
-        ],
-        "heightMapOffset": [
-          0,
-          0
-        ],
+        "heightMapTiling": [1, -1],
+        "heightMapOffset": [0, 0],
         "heightMapFactor": 1,
         "alphaToCoverage": false,
         "alphaTest": 0,
@@ -4346,14 +3252,8 @@
         "opacityMap": null,
         "opacityMapChannel": "r",
         "opacityMapUv": 0,
-        "opacityMapTiling": [
-          1,
-          -1
-        ],
-        "opacityMapOffset": [
-          0,
-          0
-        ],
+        "opacityMapTiling": [1, -1],
+        "opacityMapOffset": [0, 0],
         "reflectivity": 1,
         "refraction": 0,
         "refractionIndex": 0.6666666666666666,
@@ -4361,28 +3261,14 @@
         "cubeMap": null,
         "cubeMapProjection": 0,
         "cubeMapProjectionBox": {
-          "center": [
-            0,
-            0,
-            0
-          ],
-          "halfExtents": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "center": [0, 0, 0],
+          "halfExtents": [0.5, 0.5, 0.5]
         },
         "lightMap": null,
         "lightMapChannel": "rgb",
         "lightMapUv": 1,
-        "lightMapTiling": [
-          1,
-          -1
-        ],
-        "lightMapOffset": [
-          0,
-          0
-        ],
+        "lightMapTiling": [1, -1],
+        "lightMapOffset": [0, 0],
         "depthTest": false,
         "depthWrite": false,
         "cull": 0,
@@ -4452,7 +3338,6 @@
         "hash": "528a4a0dc195598975aedf3a87534997",
         "size": 50169,
         "variants": {},
-        "crossOrigin": "anonymous",
         "url": "1/start_image.JPG"
       },
       "region": "eu-west-1",

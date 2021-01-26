@@ -5,7 +5,7 @@ import styles from "../../styles/canvas.module.scss";
 
 const CanvasProject = () => {
     const pc = window.pc
-    const loadModule = window["lightandshadow_module"]
+    const loadModule = window["lightandshadow_modules"]
     const config = window["lightandshadow_setting"]
     const host = "http://localhost:8000/lightandshadow/tictac/"
 
