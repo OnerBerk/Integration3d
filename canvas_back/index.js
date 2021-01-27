@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 8000;
-let cors = require('cors')
 const serveIndex = require('serve-index');
-
+let cors = require('cors')
 
 const rwfunc = require("./utils/read_and_replace")
 const downfunc = require("./utils/download")
@@ -11,8 +10,9 @@ const indent = require("./utils/beautify")
 
 app.use(cors())
 
-downfunc.download("http://localhost:8080/tictac.zip")
-setTimeout(function () {
+downfunc.downloadZip("http://localhost:8080/tictac.zip")
+
+setTimeout(() => {
     rwfunc.replaceAfterDownload(
         './lightandshadow/tictac/config.json',
         /"url": "f/g,
@@ -27,13 +27,13 @@ setTimeout(function () {
     rwfunc.replaceExport('./lightandshadow/tictac/__modules__.js', "\rwindow.lightandshadow_modules =  loadModules")
 }, 800);
 
-setTimeout(function () {
+setTimeout(() => {
     indent.indent('./lightandshadow/tictac/config.json')
 }, 500)
 
 app.get('/', (req, res) => {
     res.set('Content-Type', 'text/html');
-    res.send('Le serveur Node API');
+    res.send('Node API Server is Ready');
 });
 
 app.use('/lightandshadow', express.static('lightandshadow'),

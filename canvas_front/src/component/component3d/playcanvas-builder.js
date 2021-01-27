@@ -2,7 +2,7 @@ import React from "react";
 
 const pc = window.pc
 
-export function createInputDevices(canvas) {
+export const createInputDevices = (canvas) => {
     let config = window["lightandshadow_setting"]
     return {
         elementInput: new pc.ElementInput(canvas, {
@@ -16,7 +16,7 @@ export function createInputDevices(canvas) {
     };
 };
 
-export function displayError(html) {
+export const displayError = (html) => {
     return (
         <table>
             <tr>
@@ -29,7 +29,7 @@ export function displayError(html) {
         </table>)
 };
 
-export function reflow (app, canvas) {
+export const reflow = (app, canvas) => {
     app.resizeCanvas(canvas.width, canvas.height);
     canvas.style.width = '';
     canvas.style.height = '';

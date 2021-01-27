@@ -9,7 +9,7 @@ const IntExt = (props) => {
     setFire("intext", newCamera, app)
 
     return (
-        <div className={styles.subMenu}>intext
+        <div className={styles.subMenu}>
             <p className={styles.colorRed} onClick={() => setNewCamera("int")}> Interior </p>
             <p className={styles.colorBlack} onClick={() => setNewCamera("ext")}> Exterior </p>
         </div>

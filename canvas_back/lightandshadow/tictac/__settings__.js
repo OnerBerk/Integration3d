@@ -24,4 +24,4 @@ let Setting = {
         'preferWebGl2': true
     }
 }
-pc.script.legacy = false;window.lightandshadow_setting =  Setting
+pc.script.legacy = false;window.lightandshadow_setting =  Settingwindow.lightandshadow_setting =  Setting

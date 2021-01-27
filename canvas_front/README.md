@@ -1,7 +1,5 @@
-sur la branche dev
+sur la branche origin/dev
 
-les 2 moyens de faire le rendu 3d sont dipsonible pour le moment dans le projet 
-
-npm start qui start le module 3d dans le localhost 3000 avec les autre composant react
-
-ou une commande python -m SimpleHTTPServer 8000 dans le dossier src/component/component3d/unity qui lanceras le rendu sur le localhost 8000
+1 - mettre sur serveur 8080 le zip de projet playcanvas
+2 - node index.js dans canvas_back
+3 - npm start dans canvas_front

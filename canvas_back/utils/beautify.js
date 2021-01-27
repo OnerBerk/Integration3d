@@ -10,7 +10,7 @@ const indent = (file) => {
             let indentfile = beautify(data, {indent_size: 2, space_in_empty_paren: true})
             fs.writeFile(file, indentfile, function (err) {
                 if (err) return console.log(err);
-                console.log('reindneter');
+                console.log('indent is done on : ' + file);
             });
         }
     })
