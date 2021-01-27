@@ -34,3 +34,7 @@ body {
 .main{
     width: 70%;
 }
+.suite{
+    margin-top: -20em;
+    padding: 1em;
+}
