@@ -31,102 +31,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas_back/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas_back/src/utils/beautify-indent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas_back/src/utils/download-zip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/953348.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__game-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__loading__.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__modules__.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__settings__.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO-dxt.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO-etc1.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO-pvr.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822114/1/Concrete_AO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822117/1/plastic_normals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822118/1/metal_gloss-dxt.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822118/1/metal_gloss-etc1.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822118/1/metal_gloss-pvr.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822118/1/metal_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822119/1/metal_normals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822121/1/Helipad.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822125/1/gold_AO-dxt.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822125/1/gold_AO-etc1.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822125/1/gold_AO-pvr.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822125/1/gold_AO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822129/1/Helipad_posx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822131/1/Helipad_negx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822133/1/playcanvas.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822135/1/Helipad_posz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822137/1/Helipad_negz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822139/1/Helipad_posy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822140/1/plastic_gloss-dxt.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822140/1/plastic_gloss-etc1.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822140/1/plastic_gloss-pvr.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822140/1/plastic_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32822143/1/Helipad_negy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32830164/1/circle-outline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32884412/1/TooltipCSS.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32884413/1/tooltipHTML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/32950669/1/circle-outline2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275894/1/Bridge.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275961/1/negy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275962/1/negx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275963/1/posz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275964/1/posy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275965/1/posx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275966/1/negz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33491331/1/start_image.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/beautify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/download.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/read_and_replace.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/read_and_replace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/.storybook/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/.storybook/preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/component3d/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/componentUi/button/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/intExt.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/intExt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/cameraView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/redux/rootReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/redux/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/App.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Button.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Header.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Introduction.stories.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Page.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/code-brackets.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/colors.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/direction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/plugin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/repo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/stackalt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/build/static/js/main.fb798d5b.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/static/js/main.fb798d5b.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__modules__.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__modules__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__settings__.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__settings__.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/build/static/js/runtime-main.477180d7.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/static/js/runtime-main.477180d7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/integration .css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration .css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integration/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,6 +64,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -287,7 +212,7 @@
       <workItem from="1611564510499" duration="17134000" />
       <workItem from="1611655781291" duration="23966000" />
       <workItem from="1611737289088" duration="1962000" />
-      <workItem from="1611911548188" duration="4562000" />
+      <workItem from="1611911548188" duration="12441000" />
     </task>
     <servers />
   </component>
