@@ -2,51 +2,52 @@ import React, {useState} from 'react'
 import Color from "./color"
 import Environment from './environment'
 import IntExt from './intExt'
-import View from './view'
+import CameraView from './cameraView'
 
 import styles from "../../styles/conf.module.scss"
+
 const Conf = (props) => {
 
-    const [colorbtn, setColorBtn] = useState(false)
-    const [environmentbtn, setEnvironmentBtn] = useState(false)
-    const [intExtbtn, setIntExtBtn] = useState(false)
-    const [viewbtn, setViewBtn] = useState(false)
+    let app = props.appRef
+    const [colorBtn, setColorBtn] = useState(false);
+    const [environmentBtn, setEnvironmentBtn] = useState(false);
+    const [intExtBtn, setIntExtBtn] = useState(false);
+    const [viewBtn, setViewBtn] = useState(false);
 
     const setAllFalse = () => {
         setEnvironmentBtn(false);
         setIntExtBtn(false);
         setViewBtn(false);
-        setColorBtn(false)
+        setColorBtn(false);
     }
-
-    let app = props.appRef
 
     return (
         <div className={styles.conf}>
-            
+
             <div className={styles.main}>
                 <p onClick={() => {
                     setAllFalse();
-                    setColorBtn(!colorbtn)
+                    setColorBtn(!colorBtn)
                 }}> Color </p><br/>
                 <p onClick={() => {
                     setAllFalse();
-                    setEnvironmentBtn(!environmentbtn)
+                    setEnvironmentBtn(!environmentBtn)
                 }}> Environment </p>
                 <p onClick={() => {
                     setAllFalse();
-                    setIntExtBtn(!intExtbtn)
+                    setIntExtBtn(!intExtBtn)
                 }}> Int </p>
                 <p onClick={() => {
                     setAllFalse();
-                    setViewBtn(!viewbtn)
+                    setViewBtn(!viewBtn)
                 }}> View </p>
             </div>
+
             <div className={styles.detail}>
-                {colorbtn && <div className={styles.menuColor}>< Color appRef={app}/></div>}
-                {environmentbtn && <div className={styles.menuEnvironment}>< Environment appRef={app}/></div>}
-                {intExtbtn && <div className={styles.menuAccesory}>< IntExt appRef={app}/></div>}
-                {viewbtn && <div className={styles.menuView}>< View appRef={app}/></div>}
+                {colorBtn && <div className={styles.menuColor}><Color appRef={app}/></div>}
+                {environmentBtn && <div className={styles.menuEnvironment}><Environment appRef={app}/></div>}
+                {intExtBtn && <div className={styles.menuAccesory}><IntExt appRef={app}/></div>}
+                {viewBtn && <div className={styles.menuView}><CameraView appRef={app}/></div>}
             </div>
 
         </div>

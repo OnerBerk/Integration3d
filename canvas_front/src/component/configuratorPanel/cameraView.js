@@ -1,14 +1,13 @@
 import React, {useState} from 'react'
-import {setFire} from "../../util/canvas-callback"
-
-
+import {setFireCamera} from "../../util/canvas-callback"
 import styles from "../../styles/conf.module.scss"
 
-const View = (props) => {
-    const [newView, setNewView] = useState(1)
-    let app = props.appRef
+const CameraView = (props) => {
+    const initialView = 1;
+    const [newView, setNewView] = useState(initialView);
+    let app = props.appRef;
 
-    setFire("camera", newView, app)
+    setFireCamera(newView, app);
 
     return (
         <div className={styles.subMenu}>
@@ -19,5 +18,4 @@ const View = (props) => {
         </div>
     )
 }
-
-export default View
+export default CameraView

@@ -1,16 +1,15 @@
 import React, {useEffect, useRef, useState} from 'react'
-import Conf from "../configuration/conf"
+import Conf from "../configuratorPanel/conf"
 import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
 import styles from "../../styles/canvas.module.scss";
 
 const CanvasProject = () => {
-    const pc = window.pc
-    const loadModule = window["lightandshadow_modules"]
-    const config = window["lightandshadow_setting"]
-    const host = "http://localhost:8000/lightandshadow/tictac/"
-
-    let [app, setApp] = useState()
-    const canvasRef = useRef(null)
+    const pc = window.pc;
+    const loadModule = window["lightandshadow_modules"];
+    const config = window["lightandshadow_setting"];
+    const host = "http://localhost:8000/lightandshadow/tictac/";
+    const canvasRef = useRef(null);
+    let [app, setApp] = useState();
 
     useEffect(() => {
         start()

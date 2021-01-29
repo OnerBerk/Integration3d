@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import {setFire} from "../../util/canvas-callback"
+import {setFireColor} from "../../util/canvas-callback"
 import styles from "../../styles/conf.module.scss"
 
 const Color = (props) => {
-    const [newColor, setNewColor] = useState("")
-    let app = props.appRef
+    const app = props.appRef;
+    const [newColor, setNewColor] = useState("");
 
-    setFire("color", newColor, app)
+    setFireColor(newColor, app);
 
     return (
         <div className={styles.subMenu}>
@@ -16,5 +16,4 @@ const Color = (props) => {
         </div>
     )
 }
-
 export default Color

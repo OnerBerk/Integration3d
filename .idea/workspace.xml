@@ -31,8 +31,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/canvas_back/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas_back/src/utils/beautify-indent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas_back/src/utils/download-zip.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/953348.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__game-scripts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/__loading__.js" beforeDir="false" />
@@ -77,21 +80,48 @@
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275965/1/posx.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33275966/1/negz.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/lightandshadow/tictac/files/assets/33491331/1/start_image.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/beautify.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/utils/beautify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/utils/download.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/utils/read_and_replace.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/utils/read_and_replace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/public/1/start_image.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/public/1/start_image.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/component3d/playcanvas-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/component3d/playcanvas-builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuration/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/intExt.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuration/intExt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/util/dowload-file.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/util/useScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/1/start_image.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/integration/1/start_image.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/utils/beautify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/utils/download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/utils/read_and_replace.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/read_and_replace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/utils/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/.storybook/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/.storybook/preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/component3d/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/componentUi/button/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/intExt.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/intExt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuration/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/cameraView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/redux/rootReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/App.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Button.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Header.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Introduction.stories.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/Page.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/code-brackets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/repo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/assets/stackalt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/stories/page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/build/static/js/main.fb798d5b.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/integration/build/static/js/main.fb798d5b.chunk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/integration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +133,7 @@
   </component>
   <component name="ProjectId" id="1l0U0j19GRzrfzL8xlO235GPzl3" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -117,6 +148,7 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/serverNode/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,11 +158,11 @@
       <recent name="$PROJECT_DIR$/integration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/canvas_back" />
+      <recent name="$PROJECT_DIR$/canvas_back/src" />
       <recent name="$PROJECT_DIR$/canvas_front/public/1" />
       <recent name="$PROJECT_DIR$/integration/1" />
       <recent name="$PROJECT_DIR$/integration" />
-      <recent name="$PROJECT_DIR$/canvas_back" />
-      <recent name="$PROJECT_DIR$/serverNode/lightandshadow/tictac" />
     </key>
   </component>
   <component name="RunManager" selected="Mocha.remplace l'occurence par une autre">
@@ -255,6 +287,7 @@
       <workItem from="1611564510499" duration="17134000" />
       <workItem from="1611655781291" duration="23966000" />
       <workItem from="1611737289088" duration="1962000" />
+      <workItem from="1611911548188" duration="4562000" />
     </task>
     <servers />
   </component>

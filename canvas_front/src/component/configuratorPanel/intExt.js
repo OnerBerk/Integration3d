@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import {setFire} from "../../util/canvas-callback"
+import {setFireIntExt} from "../../util/canvas-callback"
 import styles from "../../styles/conf.module.scss"
 
 const IntExt = (props) => {
-    const [newCamera, setNewCamera] = useState("")
-    let app = props.appRef
+    const [newCamera, setNewCamera] = useState("");
+    let app = props.appRef;
 
-    setFire("intext", newCamera, app)
+    setFireIntExt( newCamera, app);
 
     return (
         <div className={styles.subMenu}>

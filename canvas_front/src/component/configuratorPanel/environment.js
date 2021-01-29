@@ -1,14 +1,13 @@
 import React, {useState} from 'react'
-import {setFire} from "../../util/canvas-callback"
-
-
+import {setFireEnvironement} from "../../util/canvas-callback"
 import styles from "../../styles/conf.module.scss"
 
-
 const Environment = (props) => {
-    const [newEnv, setNewEnv] = useState("")
-    let app = props.appRef
-    setFire("env", newEnv, app)
+    const [newEnv, setNewEnv] = useState("");
+    const app = props.appRef;
+
+    setFireEnvironement(newEnv, app);
+
     return (
         <div className={styles.subMenu}>
             <p className={styles.colorRed} onClick={() => setNewEnv("heli")}> Heli </p>
@@ -16,5 +15,4 @@ const Environment = (props) => {
         </div>
     )
 }
-
 export default Environment
