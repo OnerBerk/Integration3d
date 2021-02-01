@@ -33,7 +33,6 @@
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/953348.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__game-scripts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/__loading__.js" beforeDir="false" />
@@ -78,7 +77,6 @@
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33275965/1/posx.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33275966/1/negz.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331/1/start_image.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/utils/read_and_replace.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/read_and_replace.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,6 +252,7 @@
       <workItem from="1611737289088" duration="1962000" />
       <workItem from="1611911548188" duration="12748000" />
       <workItem from="1612179239260" duration="702000" />
+      <workItem from="1612218723440" duration="1063000" />
     </task>
     <servers />
   </component>

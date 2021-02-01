@@ -13,9 +13,10 @@ module.exports = {
     scene: /"url": "9/g,
     newScene: "\"url\": \"http://localhost:8000/lightandshadow/tictac/9",
 
-    startImage:"\"url\": \"http://localhost:8000/lightandshadow/tictac/files/assets/33491331/1/start_image.JPG",
-    newStartImage:"\"url\": \"1/start_image.JPG",
+    startImage: "\"url\": \"http://localhost:8000/lightandshadow/tictac/files/assets/33491331/1/start_image.JPG",
+    newStartImage: "\"url\": \"1/start_image.JPG",
 
-    settingExport: "\rwindow.lightandshadow_setting =  Setting",
+
+    settingExport: "\rwindow.lightandshadow_setting = {ASSET_PREFIX,SCRIPT_PREFIX,SCENE_PATH,CONTEXT_OPTIONS,SCRIPTS,CONFIG_FILENAME,INPUT_SETTINGS,PRELOAD_MODULES}",
     modulesExport: "\rwindow.lightandshadow_modules =  loadModules"
 }
