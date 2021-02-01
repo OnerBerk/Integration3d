@@ -11,7 +11,7 @@ const indent = require("./utils/beautify-indent");
 
 app.use(cors());
 
-//downfunc.downloadZip(rgx.titacZipUrl);
+downfunc.downloadZip(rgx.titacZipUrl);
 
 setTimeout(() => {
     indent.indent(rgx.configPath)
@@ -23,15 +23,16 @@ setTimeout(() => {
         rgx.asset,
         rgx.gameScript,
         rgx.scene,
+        rgx.startImage,
 
         rgx.newAssetFile,
         rgx.newGameScript,
-        rgx.newScene
+        rgx.newScene,
+        rgx.newStartImage
     )
     rwfunc.replaceExport(rgx.settingPath, rgx.settingExport)
     rwfunc.replaceExport(rgx.modulesPath, rgx.modulesExport)
 }, 800);
-
 
 
 app.get('/', (req, res) => {

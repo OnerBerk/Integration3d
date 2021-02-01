@@ -1,11 +1,11 @@
 const replace = require("replace-in-file");
 const fs = require('fs');
 
-const replaceAfterDownload = (file, from, from1, from2, to, to1, to2) => {
+const replaceAfterDownload = (file, from, from1, from2,from3, to, to1, to2, to3) => {
     const options = {
         files: file,
-        from: [from, from1, from2],
-        to: [to, to1, to2],
+        from: [from, from1, from2, from3],
+        to: [to, to1, to2, to3],
     }
     replace(options)
         .then(results => {
