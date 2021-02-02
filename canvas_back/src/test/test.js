@@ -1,6 +1,6 @@
 const chai = require("chai")
 const expect = chai.expect
-const validator = require("../utils/validator")
+const validator = require("../utils/numValid")
 const validator1 = require("../utils/read_and_replace")
 
 describe("validator isNumValid()", () => {
