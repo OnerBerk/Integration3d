@@ -67,5 +67,4 @@ var loadModules = function (modules, urlPrefix, doneCallback) {
         });
     }
 };
-
-window.lightandshadow_modules =  loadModules
+window.lightandshadow_modules =  loadModuleswindow.lightandshadow_modules =  loadModules
