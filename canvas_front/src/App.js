@@ -1,12 +1,11 @@
 import React from 'react'
 import CanvasProject from './component/component3d/canvas';
-import styles from "./styles/global.scss"
 
 const App = () => {
     return (
-        <div className={styles.app}>
+        <div id="App">
             <CanvasProject/>
         </div>
     );
 }
-export default App;
+export default App
