@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type="application/x-javascript" src="http://localhost:8000/lightandshadow/tictac/__modules__.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/playcanvas@1.32.3/build/playcanvas.js"></script>
+    <script type="text/javascript" src="http://localhost:8000/lightandshadow/tictac/__settings__.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="integration .css">
-    <title>Test d'integration iframe </title>
-
+    <link rel="stylesheet" href="./integration%20.css">
+    <title>Test d'integration cross domain </title>
+    <link href="http://localhost:8080/fullIntegration/build/static/css/bundle.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -25,24 +28,13 @@
     Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
     publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
 
+    <button id="button"> Color Outside of React</button>
+
     <div class="module">
-        <iframe id="iframe" class="iframe" src="http://localhost:3000/"></iframe>
-        <script>
-            iframe.onload = function () {
-                let iframeWindow = iframe.contentWindow;
-
-                try {let doc = iframe.contentDocument}
-                catch (e) {alert(e)}
-
-                try {let href = iframe.contentWindow.location.href;}
-                catch (e) {alert(e);}
-
-                //iframe.contentWindow.location = '/'; // OK
-
-                iframe.onload = null;
-            }
-        </script>
+        <div class="root" id="root"></div>
+        <script src="http://localhost:8080/fullIntegration/build/static/js/bundle.min.js"></script>
     </div>
+
 
 </div>
 </body>

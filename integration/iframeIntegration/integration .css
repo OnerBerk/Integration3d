@@ -1,0 +1,36 @@
+html{
+    width: 100%;
+}
+.header {
+    width: 100%;
+    border: 2px solid black
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: snow;
+    background-color: #252525;
+}
+
+.article {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+
+}
+.module{
+    width: 100%;
+    margin: auto;
+}
+.conf_colorBlack__3tdXh{
+    margin: auto;
+}
+.iframe{
+    width: 80%;
+    height: 70vh;
+}
+
