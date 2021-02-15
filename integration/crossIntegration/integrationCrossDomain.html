@@ -6,8 +6,8 @@
     <script src="https://cdn.jsdelivr.net/npm/playcanvas@1.32.3/build/playcanvas.js"></script>
     <script type="text/javascript" src="http://localhost:8000/lightandshadow/tictac/__settings__.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./integration%20.css">
-    <link href="http://localhost:8080/crossIntegration/build/static/css/bundle.min.css"  rel="stylesheet">
+    <link rel="stylesheet" href="./crossIntegration.css">
+    <link href="http://localhost:8080/crossIntegration/build/static/css/bundle.min.css" rel="stylesheet">
     <title>Test d'integration cross domain </title>
 </head>
 <body>
@@ -28,14 +28,16 @@
     Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
     publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br/><br/>
 
+    <button onclick="window.lightandshadow_fire.setFireColor('green', window.lightandshadow_app)"> green </button>
+    <button onclick="window.lightandshadow_fire.setFireColor('red', window.lightandshadow_app)"> red </button>
+    <button onclick="window.lightandshadow_fire.setFireColor('black', window.lightandshadow_app)"> black </button>
+
     <div class="module">
         <div class="root" id="root"></div>
-        <script src="http://localhost:8080/crossIntegration/build/static/js/bundle.min.js" ></script>
+        <script src="http://localhost:8080/crossIntegration/build/static/js/bundle.min.js"></script>
     </div>
-    <script>
-    </script>
-</div>
 
+</div>
 </body>
 <footer> all right reserved 2020 Joza-it corp</footer>
 </html>

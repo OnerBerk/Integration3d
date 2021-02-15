@@ -15,3 +15,10 @@ export const setFireEnvironement = (newValue, app) => {
 export const setFireIntExt = (newValue, app) => {
     app.fire("intext:set", newValue);
 }
+export const setTest=()=>{
+    return(
+        alert("alert from react")
+    )
+}
+
+window.lightandshadow_fire = {setFire, setFireColor, setFireIntExt, setFireEnvironement, setFireCamera, setTest}

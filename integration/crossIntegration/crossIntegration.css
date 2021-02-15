@@ -15,22 +15,18 @@ body {
     color: snow;
     background-color: #252525;
 }
-
-.article {
-    margin: auto;
-    text-align: center;
-    width: 80%;
-
-}
 .module{
-    width: 100%;
     margin: auto;
 }
-.conf_colorBlack__3tdXh{
-    margin: auto;
+#ls-modele-1{
+    border: none;
 }
-.iframe{
-    width: 80%;
-    height: 70vh;
+button{
+    padding: 0.5em;
+    background-color: #d7f6e1;
+    border-radius: 10px;
+    margin-bottom: 7em;
+
 }
+
 

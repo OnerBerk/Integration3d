@@ -1,0 +1,37 @@
+html {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    border: 2px solid black
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: snow;
+    background-color: #252525;
+}
+
+.main {
+    font-family: Menlo, Roboto, serif;
+}
+
+#ls-modele-1 {
+    border: none;
+    padding-top: 2em;
+}
+
+.conf_conf__1Pwlb {
+    font-size: smaller;
+    font-family: Menlo, Roboto, serif;
+}
+
+.conf_colorBlack__3tdXh, .conf_colorBlue__3jwPX, .conf_colorGreen__2Lzoa, .conf_colorRed__8X6LK {
+    padding: 1em ;
+}
+
