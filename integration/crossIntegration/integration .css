@@ -29,8 +29,7 @@ body {
 .conf_colorBlack__3tdXh{
     margin: auto;
 }
-.iframe{
-    width: 80%;
-    height: 70vh;
-}
 
+.color{
+    border: red 5px solid  ;
+}

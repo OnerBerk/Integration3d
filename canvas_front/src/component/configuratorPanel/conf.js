@@ -3,23 +3,21 @@ import Color from "./color"
 import Environment from './environment'
 import IntExt from './intExt'
 import CameraView from './cameraView'
-
 import styles from "../../styles/conf.module.scss"
 
 const Conf = (props) => {
+        let app = props.appRef
+        const [colorBtn, setColorBtn] = useState(false);
+        const [environmentBtn, setEnvironmentBtn] = useState(false);
+        const [intExtBtn, setIntExtBtn] = useState(false);
+        const [viewBtn, setViewBtn] = useState(false);
 
-    let app = props.appRef
-    const [colorBtn, setColorBtn] = useState(false);
-    const [environmentBtn, setEnvironmentBtn] = useState(false);
-    const [intExtBtn, setIntExtBtn] = useState(false);
-    const [viewBtn, setViewBtn] = useState(false);
-
-    const setAllFalse = () => {
-        setEnvironmentBtn(false);
-        setIntExtBtn(false);
-        setViewBtn(false);
-        setColorBtn(false);
-    }
+        const setAllFalse = () => {
+            setEnvironmentBtn(false);
+            setIntExtBtn(false);
+            setViewBtn(false);
+            setColorBtn(false);
+        }
 
     return (
         <div className={styles.conf}>
