@@ -10,7 +10,7 @@ const Color = (props) => {
 
     return (
         <div className={styles.subMenu}>
-            <p className={styles.colorRed} onClick={() => setNewColor("red")}> Red </p>
+            <p id="colorRed" className={styles.colorRed} onClick={() => setNewColor("red")}> Red </p>
             <p className={styles.colorBlack} onClick={() => setNewColor("black")}> Black </p>
             <p className={styles.colorGreen} onClick={() => setNewColor("green")}> green </p>
         </div>

@@ -34,4 +34,8 @@ body {
 .conf_colorBlack__3tdXh, .conf_colorBlue__3jwPX, .conf_colorGreen__2Lzoa, .conf_colorRed__8X6LK {
     padding: 1em ;
 }
+#colorRed{
+   color: yellow;
+    text-decoration: underline;
+}
 

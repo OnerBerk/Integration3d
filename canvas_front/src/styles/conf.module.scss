@@ -2,6 +2,8 @@
 
 $minimise-screen: 670px;
 $big-screen-phone: 600px;
+
+
 .conf {
   width: 98%;
   height: 10vh;
@@ -16,7 +18,7 @@ $big-screen-phone: 600px;
   height: 5vh;
   display: flex;
   flex-direction: row;
-  grid-row-start:1 ;
+  grid-row-start: 1;
 }
 
 .main, p {
@@ -49,12 +51,13 @@ main, p:hover {
 .colorBlue:hover {
   color: rgb(25, 76, 172)
 }
+
 .colorGreen:hover {
   color: rgb(76, 209, 116);
 }
 
 
-.colorRed, .colorBlack, .colorGreen, .colorBlue{
+.colorRed, .colorBlack, .colorGreen, .colorBlue {
   margin-left: 0;
   margin-right: 0;
   width: 4em;
@@ -66,10 +69,11 @@ main, p:hover {
   .main p {
     font-size: 1em;
   }
-  .colorRed, .colorBlack, .colorGreen,.colorBlue {
+  .colorRed, .colorBlack, .colorGreen, .colorBlue {
     font-size: 1em;
     margin-top: -0.3em;
   }
 }
+
 
 

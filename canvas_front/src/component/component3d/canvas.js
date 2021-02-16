@@ -72,6 +72,7 @@ const CanvasProject = () => {
     };
 
     window.lightandshadow_app = app
+
     return (
         <div className={styles.can}>
             <Conf appRef={app}/>

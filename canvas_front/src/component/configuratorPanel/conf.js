@@ -42,7 +42,7 @@ const Conf = (props) => {
             </div>
 
             <div className={styles.detail}>
-                {colorBtn && <div className={styles.menuColor}><Color appRef={app}/></div>}
+                {colorBtn && <div id="menucolor" className={styles.menuColor}><Color appRef={app}/></div>}
                 {environmentBtn && <div className={styles.menuEnvironment}><Environment appRef={app}/></div>}
                 {intExtBtn && <div className={styles.menuAccesory}><IntExt appRef={app}/></div>}
                 {viewBtn && <div className={styles.menuView}><CameraView appRef={app}/></div>}
