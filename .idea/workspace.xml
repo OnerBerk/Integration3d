@@ -34,26 +34,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/configurator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/crossIntegration/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/fullIntegration/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integration/iframeIntegration/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/utils/beautify-indent.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/src/utils/beautify-indent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/src/utils/numValid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/component3d/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/component3d/onDemand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/component3d/playcanvas-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/component3d/playcanvas-builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/cameraView.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/cameraView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/environment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/intExt.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/intExt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel/like_button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/styles/canvas.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/styles/canvas.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/styles/conf.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/styles/conf.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/src/util/canvas-callback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/fullIntegration/fullIntegration.css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/fullIntegration/fullIntegration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/crossIntegration/crossIntegration.css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/crossIntegration/crossIntegration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/crossIntegration/integrationCrossDomain.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/crossIntegration/integrationCrossDomain.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,8 +94,8 @@
       <recent name="$PROJECT_DIR$/integration/iframeIntegration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/integration/crossIntegration" />
       <recent name="$PROJECT_DIR$/integration/iframeIntegration" />
+      <recent name="$PROJECT_DIR$/integration/crossIntegration" />
       <recent name="$PROJECT_DIR$/integration" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/canvas_front/integration" />
@@ -255,7 +241,7 @@
       <workItem from="1613414628537" duration="5520000" />
       <workItem from="1613465200670" duration="1874000" />
       <workItem from="1613482407147" duration="4237000" />
-      <workItem from="1613638379662" duration="8442000" />
+      <workItem from="1613638379662" duration="11256000" />
     </task>
     <servers />
   </component>
