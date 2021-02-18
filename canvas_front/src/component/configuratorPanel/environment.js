@@ -9,9 +9,9 @@ const Environment = (props) => {
     setFireEnvironement(newEnv, app);
 
     return (
-        <div className={styles.subMenu}>
-            <p className={styles.colorRed} onClick={() => setNewEnv("heli")}> Heli </p>
-            <p className={styles.colorBlack} onClick={() => setNewEnv("bridge")}> Bridge </p>
+        <div id="subMenu" className={styles.subMenu}>
+            <p id="heli" className={styles.colorRed} onClick={() => setNewEnv("heli")}> Heli </p>
+            <p id="bridge" className={styles.colorBlack} onClick={() => setNewEnv("bridge")}> Bridge </p>
         </div>
     )
 }

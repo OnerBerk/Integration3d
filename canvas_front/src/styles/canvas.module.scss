@@ -1,7 +1,7 @@
 $minimise-screen: 670px;
 $big-screen-phone: 600px;
 
-.can {
+.projectMain {
   margin: auto;
   width: 98%;
   height: 100vh;
@@ -10,8 +10,8 @@ $big-screen-phone: 600px;
   grid-template-columns: 100%;
   grid-template-rows: 20% 55%;
 }
-.can canvas {
+.projectMain canvas {
   width: 83%;
   margin: auto;
-  border: 2px solid snow;
+  border: 1px solid snow;
 }

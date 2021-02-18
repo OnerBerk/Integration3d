@@ -1,10 +1,10 @@
 import React from 'react'
-import CanvasProject from './component/component3d/canvas';
+import Ondemand from './component/component3d/onDemand';
 
 const App = () => {
     return (
         <div id="App">
-            <CanvasProject/>
+            <Ondemand/>
         </div>
     );
 }

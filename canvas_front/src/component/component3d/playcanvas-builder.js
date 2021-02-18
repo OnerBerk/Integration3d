@@ -9,7 +9,7 @@ export const createInputDevices = (canvas) => {
             useMouse: config.INPUT_SETTINGS.useMouse,
             useTouch: config.INPUT_SETTINGS.useTouch
         }),
-        keyboard: config.INPUT_SETTINGS.useKeyboard = new pc.Keyboard(window),
+        keyboard: config.INPUT_SETTINGS.useKeyboard = new pc.Keyboard(),
         mouse: config.INPUT_SETTINGS.useMouse = new pc.Mouse(canvas),
         gamepads: config.INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
         touch: config.INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
@@ -37,7 +37,8 @@ export const reflow = (app, canvas) => {
     const fillMode = app._fillMode;
 
     if (fillMode === pc.FILLMODE_NONE || fillMode === pc.FILLMODE_KEEP_ASPECT) {
-        if ((fillMode === pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) || (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
+        if ((fillMode === pc.FILLMODE_NONE && canvas.clientHeight < window.innerHeight) ||
+            (canvas.clientWidth / canvas.clientHeight >= window.innerWidth / window.innerHeight)) {
             canvas.style.marginTop = -50 + 'px';
         } else {
             canvas.style.marginTop = '';

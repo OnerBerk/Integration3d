@@ -19,23 +19,23 @@ body {
 
 .main {
     font-family: Menlo, Roboto, serif;
+
 }
 
 #ls-modele-1 {
     border: none;
-    padding-top: 2em;
 }
 
-.conf_conf__1Pwlb {
-    font-size: smaller;
+#main{
     font-family: Menlo, Roboto, serif;
+    background-color: #fffafa;
+    opacity: 0.5;
+}
+#main p{
+    color: #252525;
 }
 
-.conf_colorBlack__3tdXh, .conf_colorBlue__3jwPX, .conf_colorGreen__2Lzoa, .conf_colorRed__8X6LK {
-    padding: 1em ;
-}
-#colorRed{
-   color: yellow;
-    text-decoration: underline;
+#ProjectMain{
+    margin-top: 1em;
 }
 

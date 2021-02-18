@@ -10,11 +10,10 @@ const CameraView = (props) => {
     setFireCamera(newView, app);
 
     return (
-        <div className={styles.subMenu}>
-            <p className={styles.colorRed} onClick={() => setNewView(1)}> view 1 </p>
-            <p className={styles.colorBlack} onClick={() => setNewView(2)}> View 2 </p>
-            <p className={styles.colorBlack} onClick={() => setNewView(3)}> View 3 </p>
-
+        <div id="subMenu" className={styles.subMenu}>
+            <p id="view1" className={styles.colorRed} onClick={() => setNewView(1)}> view 1 </p>
+            <p id="view2" className={styles.colorBlack} onClick={() => setNewView(2)}> View 2 </p>
+            <p id="view3" className={styles.colorGreen} onClick={() => setNewView(3)}> View 3 </p>
         </div>
     )
 }

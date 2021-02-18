@@ -6,7 +6,7 @@ const indent = (file) => {
         if (err) {
             throw err;
         }
-        let indentFile = beautifyIndent(data, {indent_size: 2, space_in_empty_paren: true})
+        let indentFile = beautifyIndent(data, {indent_size: 2, space_in_empty_paren: true});
         fs.writeFile(file, indentFile, (err) => {
             if (err) {
                 console.log(err);

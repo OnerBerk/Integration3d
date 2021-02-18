@@ -4,9 +4,9 @@ $minimise-screen: 670px;
 $big-screen-phone: 600px;
 
 
-.conf {
+.configuratorMain {
   width: 98%;
-  height: 10vh;
+  height: 7vh;
   display: grid;
   grid-gap: 0.5em;
   grid-template-columns: 100%;
@@ -17,7 +17,7 @@ $big-screen-phone: 600px;
   width: 98%;
   height: 5vh;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   grid-row-start: 1;
 }
 
@@ -35,7 +35,6 @@ main, p:hover {
 
 .subMenu {
   display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: center;
 }
@@ -63,6 +62,9 @@ main, p:hover {
   width: 4em;
   height: 2em;
   font-size: 1.3em;
+}
+.detail{
+  padding: 0.5em;
 }
 
 @media screen and (max-width: $minimise-screen) {

@@ -1,11 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react'
-import Conf from "../configuratorPanel/conf"
+import Configurator from "../configuratorPanel/configurator"
 import {createInputDevices, displayError, reflow} from "./playcanvas-builder"
 import styles from "../../styles/canvas.module.scss";
 
-const CanvasProject = () => {
+const OnDemand = () => {
     const pc = window.pc;
-    const loadModule = window["lightandshadow_modules"];
+    const loadModules = window["lightandshadow_modules"];
     const config = window["lightandshadow_setting"];
     const host = "http://localhost:8000/lightandshadow/tictac/";
     const canvasRef = useRef(null);
@@ -67,18 +67,18 @@ const CanvasProject = () => {
                 })
             });
         }
-        loadModule(config.PRELOAD_MODULES, config.ASSET_PREFIX, configure);
+        loadModules(config.PRELOAD_MODULES, config.ASSET_PREFIX, configure);
         setApp(app)
     };
 
     window.lightandshadow_app = app
 
     return (
-        <div className={styles.can}>
-            <Conf appRef={app}/>
+        <div id="ProjectMain" className={styles.projectMain}>
+            <Configurator appRef={app}/>
             <canvas id="ls-modele-1" ref={canvasRef}/>
         </div>
     )
 }
-export default CanvasProject
+export default OnDemand
 

@@ -9,10 +9,10 @@ const Color = (props) => {
     setFireColor(newColor, app);
 
     return (
-        <div className={styles.subMenu}>
+        <div id="subMenu" className={styles.subMenu}>
             <p id="colorRed" className={styles.colorRed} onClick={() => setNewColor("red")}> Red </p>
-            <p className={styles.colorBlack} onClick={() => setNewColor("black")}> Black </p>
-            <p className={styles.colorGreen} onClick={() => setNewColor("green")}> green </p>
+            <p id="colorBlack" className={styles.colorBlack} onClick={() => setNewColor("black")}> Black </p>
+            <p id="colorGreen" className={styles.colorGreen} onClick={() => setNewColor("green")}> green </p>
         </div>
     )
 }

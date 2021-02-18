@@ -1,13 +1,6 @@
 const chai = require("chai")
 const expect = chai.expect
-const validator = require("../utils/numValid")
 const validator1 = require("../utils/read_and_replace")
-
-describe("validator isNumValid()", () => {
-    it("doit retourner true pour un nombre entre 10 et 70", () => {
-        expect(validator.isNumValid(45)).to.be.true
-    })
-})
 
 describe("remplace l'occurence par une autre", () => {
     it("remplace les url", () => {

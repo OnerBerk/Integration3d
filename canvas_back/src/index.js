@@ -5,20 +5,20 @@ const serveIndex = require('serve-index');
 const rgx = require("../config/config")
 const cors = require('cors');
 
-const rwfunc = require("./utils/read_and_replace");
-const downfunc = require("./utils/download-zip");
+const modifyFileFunc = require("./utils/read_and_replace");
+const downloadFunc = require("./utils/download-zip");
 const indent = require("./utils/beautify-indent");
 
 app.use(cors());
 
-//downfunc.downloadZip(rgx.titacZipUrl);
+//downloadFunc.downloadZip(rgx.titacZipUrl);
 
 setTimeout(() => {
     indent.indent(rgx.configPath)
 }, 500);
 
 setTimeout(() => {
-    rwfunc.replaceAfterDownload(
+    modifyFileFunc.replaceAfterDownload(
         rgx.configPath,
         rgx.asset,
         rgx.gameScript,
@@ -30,8 +30,8 @@ setTimeout(() => {
         rgx.newScene,
         rgx.newStartImage
     )
-    rwfunc.replaceExport(rgx.settingPath, rgx.settingExport)
-    rwfunc.replaceExport(rgx.modulesPath, rgx.modulesExport)
+    modifyFileFunc.replaceExport(rgx.settingPath, rgx.settingExport)
+    modifyFileFunc.replaceExport(rgx.modulesPath, rgx.modulesExport)
 }, 800);
 
 
