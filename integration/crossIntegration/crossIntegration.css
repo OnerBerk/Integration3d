@@ -25,6 +25,9 @@ button{
     color: snow;
     margin-bottom: 1em;
 }
+.buttonContainer{
+    margin-bottom: 5em;
+}
 
 .buttonRed:hover{
     background-color: #d40a0a;
