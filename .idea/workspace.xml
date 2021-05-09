@@ -112,11 +112,11 @@
       <recent name="$PROJECT_DIR$/integration/crossIntegration/1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/integration" />
       <recent name="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331/1" />
       <recent name="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331" />
       <recent name="$PROJECT_DIR$/integration/iframeIntegration" />
       <recent name="$PROJECT_DIR$/integration/crossIntegration" />
-      <recent name="$PROJECT_DIR$/integration" />
     </key>
   </component>
   <component name="RunManager" selected="Mocha.remplace l'occurence par une autre">
@@ -275,7 +275,7 @@
       <workItem from="1620300106731" duration="559000" />
       <workItem from="1620373767007" duration="7307000" />
       <workItem from="1620390931215" duration="118000" />
-      <workItem from="1620573825406" duration="1102000" />
+      <workItem from="1620573825406" duration="1573000" />
     </task>
     <servers />
   </component>
