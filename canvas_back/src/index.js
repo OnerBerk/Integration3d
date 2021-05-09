@@ -11,7 +11,7 @@ const indent = require("./utils/beautify-indent");
 
 app.use(cors());
 
-downloadFunc.downloadZip(rgx.titacZipUrl);
+//downloadFunc.downloadZip(rgx.titacZipUrl);
 
 setTimeout(() => {
     indent.indent(rgx.configPath)
