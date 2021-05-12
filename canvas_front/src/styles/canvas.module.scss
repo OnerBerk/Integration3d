@@ -4,7 +4,7 @@ $big-screen-phone: 600px;
 .projectMain {
   margin: auto;
   width: 98%;
-  height: 100vh;
+  height: 60vh;
   display: grid;
   grid-gap: 0.9em;
   grid-template-columns: 100%;
@@ -13,5 +13,4 @@ $big-screen-phone: 600px;
 .projectMain canvas {
   width: 83%;
   margin: auto;
-  border: 1px solid snow;
 }

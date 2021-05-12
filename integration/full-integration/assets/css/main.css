@@ -3611,5 +3611,8 @@ input, select, textarea {
 			#menu > * {
 				padding: 1.5em;
 			}
-
 		}
+#ls-modele-1{
+	margin-top:-1.5em ;
+	margin-bottom: -2em;
+}

@@ -11,6 +11,7 @@ $big-screen-phone: 600px;
   grid-gap: 0.5em;
   grid-template-columns: 100%;
   grid-template-rows: 65% 35%;
+
 }
 
 .main {
@@ -19,6 +20,7 @@ $big-screen-phone: 600px;
   display: flex;
   align-items: center;
   grid-row-start: 1;
+  margin-bottom: -2em;
 }
 
 .main, p {
@@ -35,6 +37,7 @@ main, p:hover {
 
 .subMenu {
   display: flex;
+  margin-top: -1em;
   align-content: center;
   justify-content: center;
 }
