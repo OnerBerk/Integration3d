@@ -7,6 +7,6 @@
 ``npm start
 ``
 ## Points à régler
-### Fonction **replaceExport**
+### Dans la fonction **replaceExport**
 - Pallier à l'ajout de nouvelle ligne d'export si deja existent
   
