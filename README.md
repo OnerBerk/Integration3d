@@ -3,26 +3,10 @@
 # Documentation
 
 ## introduction
+Module d'integration d'un modèle 3d generé par playcanvas 
 
-
-## sommaire
-[Liens front](https://bitbucket.org/jozait/light-and-shadow-react-car-config/src/webpack/canvas_front/README.md)
-
-## Guide d'integration du module 3d
-###  Exemple d'integration d'un Build
-````javascript
-````
-
-## Guide d'utilisation des fonctions
-### Noms des fonctions
-### Exemple d'utilisation
-````javascript
-
-````
-
-## Guide d'utilisation de la surchage css
-### noms des Id css
-### Exemple d'utilisation
-````javascript
-
-````
+## Sommaire
+- [Guide d'installation back](https://bitbucket.org/jozait/light-and-shadow-react-car-config/src/webpack/canvas_back/README.md)  
+- [Guide d'installation front](https://bitbucket.org/jozait/light-and-shadow-react-car-config/src/webpack/canvas_front/README.md)
+- [Guide d'integration](https://bitbucket.org/jozait/light-and-shadow-react-car-config/src/webpack/INTEGRATION.md)
+- [Guide des fonction](https://bitbucket.org/jozait/light-and-shadow-react-car-config/src/webpack/FONCTION.md)

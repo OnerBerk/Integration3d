@@ -1,5 +1,12 @@
-sur la branche origin/dev
+# Guide d'utilisation du front
 
-1 - mettre sur serveur 8080 le zip de projet playcanvas
-2 - node index.js dans canvas_back
-3 - npm start dans canvas_front
+## Instalation des paquets
+``npm install``
+
+## Demarrer le front
+``npm start
+``
+## Points à régler
+### Dans la composant **onDemand**
+- acceder au css du canvas en dehors de ce composant.
+  

@@ -4,7 +4,8 @@
 ``npm install``
 
 ## Demarrer le back
-``npm start
+``
+cd src && node index.js
 ``
 ## Points à régler
 ### Dans la fonction **replaceExport**
