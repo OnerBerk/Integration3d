@@ -1,12 +1,12 @@
 # __Guide d'utilisation du back__
 
-##__Instalation des paquets__
+##Instalation des paquets
 ``npm install``
 
-## __Demarrer le back__
+## Demarrer le back
 ``npm start
 ``
-## __Points à régler__
+## Points à régler
 ### Fonction **replaceExport**
 - Pallier à l'ajout de nouvelle ligne d'export si deja existent
   
