@@ -35,8 +35,8 @@
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/custom-integration/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/integration/custom-integration/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/custom-integration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/custom-integration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
