@@ -34,12 +34,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FONCTION.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTEGRATION.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integration/full-integration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/integration/full-integration/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/canvas_front/package.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1l0U0j19GRzrfzL8xlO235GPzl3" />
   <component name="ProjectViewState">
@@ -95,10 +97,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/integration/full-integration" />
+      <recent name="$PROJECT_DIR$/integration/test" />
       <recent name="$PROJECT_DIR$/integration/crossIntegration" />
       <recent name="$PROJECT_DIR$/integration/fullIntegration" />
       <recent name="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331/1" />
-      <recent name="$PROJECT_DIR$/canvas_front/src/component/configuratorPanel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/integration" />
