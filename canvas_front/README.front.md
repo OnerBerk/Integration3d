@@ -10,7 +10,19 @@
 ## Point important 
 - Le projet à été configurer pour un type de modele 3d avec une configuration de couleur d'environement et de vue.   
 Les fonctions et leurs utilisations doivent etre definis par le createur du modele 3d,  
-  pour que coté React on puissent creer des composant d'interaction avec le modele si necessaire
+  pour que coté React on puissent creer des composant d'interaction avec le modele si necessaire  
+  
+- Il faut definir des variables globales au fonction pour qu'elles soit accessible lors de l'intégration 
+  - Exemple de fonction :
+```javascript
+
+export const setFireColor = (newValue, app) => {
+    app.fire("color:set", newValue);
+}
+
+window.lightandshadow_fire = {setFireColor}
+```
+
 
 ## Demarrer le front
 - `npm start`  
