@@ -1,6 +1,6 @@
 module.exports = {
 
-    titacZipUrl: "http://localhost:8080/tictac.zip",
+    titacZipUrl: "http://localhost:9000/tictac.zip",
     settingPath: './lightandshadow/tictac/__settings__.js',
     configPath: './lightandshadow/tictac/config.json',
     modulesPath: './lightandshadow/tictac/__modules__.js',

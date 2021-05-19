@@ -1,6 +1,6 @@
 # Guide d'utilisation du front
 
-## Instalation des paquets
+## Installation des paquets
 ``npm install``
 
 ## Demarrer le front
