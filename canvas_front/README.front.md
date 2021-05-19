@@ -1,4 +1,7 @@
-# Guide d'utilisation du front
+# Guide d'utilisation du front  
+[Accueil Readme](../README.md)  
+[Guide d'installation back](../canvas_back/README.back.md)  
+[Guide d'intégration et d'utilisation des fonctions](../INTEGRATION.md)
 
 ## Prerequis
 - Avoir le back lancé sur le serveur 8000

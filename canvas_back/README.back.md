@@ -1,4 +1,8 @@
 # Guide d'utilisation du back
+#### Retour à l'accueil -  
+[Accueil Readme](../README.md)  
+[Guide d'installation front](../canvas_front/README.front.md)  
+[Guide d'intégration et d'utilisation des fonctions](../INTEGRATION.md)
 
 ## Prerequis
 - Avoir un projet playcanvas compressé sur un serveur

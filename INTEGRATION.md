@@ -1,5 +1,9 @@
 ## Guide d'integration du module 3d
 
+[Accueil Readme](README.md)  
+[Guide d'installation back](canvas_back/README.back.md)  
+[Guide d'installation front](canvas_front/README.front.md)
+
 ## Prerequis
 
 - Avoir un build de l'application React ``npm run build``
