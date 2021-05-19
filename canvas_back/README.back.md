@@ -13,7 +13,6 @@
 ## Demarrer le back
 - `cd src && node index.js`
 
-
 A partir de ce point les fichiers playcanvas se trouverons sur le serveur local port 8000
 
 

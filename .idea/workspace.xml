@@ -34,12 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b50580-835e-4ed8-a694-5e605c88f502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas_back/README.back.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_back/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canvas_front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/README.front.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_back/README.back.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_back/README.back.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas_front/README.front.md" beforeDir="false" afterPath="$PROJECT_DIR$/canvas_front/README.front.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +102,11 @@
       <recent name="$PROJECT_DIR$/integration/fullIntegration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/integration" />
       <recent name="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331/1" />
       <recent name="$PROJECT_DIR$/canvas_back/src/lightandshadow/tictac/files/assets/33491331" />
       <recent name="$PROJECT_DIR$/integration/iframeIntegration" />
-      <recent name="$PROJECT_DIR$/integration/crossIntegration" />
     </key>
   </component>
   <component name="RunManager" selected="Mocha.remplace l'occurence par une autre">
