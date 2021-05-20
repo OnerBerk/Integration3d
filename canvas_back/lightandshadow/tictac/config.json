@@ -67,7 +67,8 @@
         "transparentSortMode": 3
       }
     },
-    "layerOrder": [{
+    "layerOrder": [
+      {
         "layer": 0,
         "transparent": false,
         "enabled": true
@@ -117,10 +118,12 @@
     "externalScripts": [],
     "libraries": []
   },
-  "scenes": [{
-    "name": "Main",
-    "url": "http://localhost:8000/lightandshadow/tictac/953348.json"
-  }],
+  "scenes": [
+    {
+      "name": "Main",
+      "url": "http://localhost:8000/lightandshadow/tictac/953348.json"
+    }
+  ],
   "assets": {
     "32822114": {
       "data": {
@@ -1110,7 +1113,8 @@
     },
     "32822133": {
       "data": {
-        "mapping": [{
+        "mapping": [
+          {
             "material": 32822130
           },
           {

@@ -1,23 +1,24 @@
 const express = require('express');
+const fs = require('fs');
 const app = express();
-const port = process.env.PORT || 8000;
 const serveIndex = require('serve-index');
-const rgx = require("../config/config")
 const cors = require('cors');
+
+const rgx = require("../config/config")
+const port = process.env.PORT || 8000;
 
 const modifyFileFunc = require("./utils/read_and_replace");
 const downloadFunc = require("./utils/download-zip");
 const indent = require("./utils/beautify-indent");
 
+const path = './lightandshadow/'
+
 app.use(cors());
 
-//downloadFunc.downloadZip(rgx.titacZipUrl);
+downloadFunc.downloadZip(rgx.titacZipUrl);
 
-setTimeout(() => {
+const callback=()=> {
     indent.indent(rgx.configPath)
-}, 500);
-
-setTimeout(() => {
     modifyFileFunc.replaceAfterDownload(
         rgx.configPath,
         rgx.asset,
@@ -31,7 +32,14 @@ setTimeout(() => {
     modifyFileFunc.replaceAsset(rgx.settingPath,rgx.assetSetting,rgx.newAssetSetting)
     modifyFileFunc.replaceExport(rgx.settingPath, rgx.settingExport)
     modifyFileFunc.replaceExport(rgx.modulesPath, rgx.modulesExport)
-}, 800);
+};
+
+if (fs.existsSync(path)){
+    console.log("already done")
+}else
+{
+    setTimeout(()=>callback(),800)
+}
 
 
 app.get('/', (req, res) => {
@@ -44,6 +52,6 @@ app.use('/lightandshadow', express.static('lightandshadow'),
         '', {'icons': true}));
 
 app.listen(port, () => {
-    console.log('lance sur port' + port);
+    console.log('lance sur port ' + port);
 });
 
