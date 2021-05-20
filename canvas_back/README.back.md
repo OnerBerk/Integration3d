@@ -6,8 +6,8 @@
 
 ## Prerequis
 - Avoir un projet playcanvas compressé sur un serveur
-    - Exemple en local : Mettre le zip sur un serveur local port 9000 
-        - ``python -m SimpleHTTPServer 9000`` dans le dossier ou ce trouve le zip
+    - Exemple en local : Mettre le zip sur un serveur local port 4000 
+        - ``python -m SimpleHTTPServer 4000`` dans le dossier ou ce trouve le zip
 
 - Construire le back necessite `node ` et `npm` 
 
